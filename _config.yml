@@ -22,7 +22,8 @@ defaults:
     role: 
     is-featured: 
 url: http://jamalbenmiloud.com
-description: A straight-talking thought leader, with a reputation as one of the world’s most disruptive thinkers in marketing.
+description: A straight-talking thought leader, with a reputation as one of the world’s
+  most disruptive thinkers in marketing.
 permalink: pretty
 exclude:
 - Gemfile
