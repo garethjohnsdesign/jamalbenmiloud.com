@@ -1,0 +1,125 @@
+---
+layout: default
+---
+
+<!-- Hero -->
+<section class="hero" id="hero" style="background-image: url({{page.hero-image}})">
+<div class="row expanded">
+	<div class="large-12 columns">
+
+    <div class="top-bar row small-collapse expanded align-middle align-justify">
+      
+      <div class="shrink columns top-bar-menu">
+        <ul class="menu align-right">
+            {% for link in site.data.navigation %}
+              <li><a href="{{link.href}}">{{link.title}}</a></li>
+            {% endfor %}
+              <li><a href="{{link.href}}">Contact</a></li>
+        </ul>
+      </div>
+      
+      <div class="shrink columns top-bar-title">
+          <a href="/">{{site.title}}</a>
+      </div>
+    
+    </div>
+
+	</div>
+</div>
+
+  <div class="row hero__text">
+  	<div class="medium-6 large-6 columns">
+      <h1>{{page.hero-title}}</h1>
+      <p>{{page.hero-text}}</p>
+      <a class="button" href="#">Contact</a>
+  	</div>
+  </div>
+  
+</section>
+<!-- End Hero -->
+
+<!-- About -->
+<section class="about" id="about">
+  
+  <div class="row align-center about__intro">
+  	<div class="large-8 columns text-center">
+      <h2>{{page.about-title}}</h2>
+      <p>{{page.about-text}}</p>
+  	</div>
+  </div>
+  
+  <div class="row align-center about__qualities">
+    {% for quality in page.about-qualities %}
+      <div class="small-12 medium-expand columns text-center">
+        <h4>{{ quality.title }}</h4>
+        <p>{{ quality.text | markdownify}}</p>
+      </div>
+    {% endfor %}
+  </div>
+  
+</section>
+<!-- End About -->
+
+<!-- Speaking -->
+<section class="speaking" id="speaking">
+  
+  <div class="row align-center speaking__intro">
+  	<div class="large-8 columns text-center">
+      <h2>{{page.speaking-title}}</h2>
+      <p>{{page.speaking-text}}</p>
+  	</div>
+  </div>
+  
+  <div class="row align-center speaking__qualities">
+    {% for quality in page.speaking-qualities %}
+      <div class="small-12 medium-expand columns text-center">
+        <h4>{{ quality.title }}</h4>
+        <p>{{ quality.text | markdownify}}</p>
+      </div>
+    {% endfor %}
+  </div>
+  
+  <div class="row align-center speaking__extra">
+  	<div class="large-8 columns text-center">
+      <p>{{page.speaking-extra}}</p>
+      <a class="button" href="#">Contact</a>
+  	</div>
+  </div>
+  
+</section>
+<!-- End Speaking -->
+
+
+<!-- Clients -->
+<section class="clients" id="clients">
+  
+  <div class="row align-center clients__intro">
+  	<div class="large-8 columns text-center">
+      <h2>{{page.clients-title}}</h2>
+      <p>{{page.clients-text}}</p>
+  	</div>
+  </div>
+  
+  <div class="row align-center clients__qualities">
+    {% for client in page.clients-clients %}
+      <div class="small-12 medium-expand columns text-center">
+        <h4>{{ quality.title }}</h4>
+        <p>{{ quality.text | markdownify}}</p>
+      </div>
+    {% endfor %}
+  </div>
+  
+  <div class="row align-center clients__logos">
+  	<div class="large-8 columns text-center">
+        <ul class="menu align-center">
+              <li><a href="{{link.href}}">{{link.title}}</a></li>
+        </ul>
+  	</div>
+  </div>
+  
+</section>
+<!-- End Clients -->
+
+
+
+{% include footer.html %}

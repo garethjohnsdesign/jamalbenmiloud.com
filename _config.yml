@@ -1,0 +1,66 @@
+---
+title: Jamal Benmiloud
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: false
+defaults:
+- scope:
+    path: ''
+    type: projects
+  values:
+    image: 
+    video: 
+    company: 
+    runtime: 
+    director: 
+    producers: 
+    role: 
+    is-featured: 
+url: http://jamalbenmiloud.com
+description: A straight-talking thought leader, with a reputation as one of the world’s most disruptive thinkers in marketing.
+permalink: pretty
+exclude:
+- Gemfile
+- Gemfile.lock
+- bower.json
+- package.json
+- config.codekit3
+- README*
+- LICENSE*
+- CHANGELOG*
+- node_modules
+- ".gitignore"
+- bower_components
+gems:
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
+company: Jamal Benmiloud
+email: info@jamalbenmiloud.com
+google_site_verification: P7aG-KqXbk4H0kr9f5uzYHgAtDtHdgUmv7jktOc0zwE
+analytics: UA-96108323-1
+logo: "/assets/img/logo.svg"
+per_page: 12
+date_format: "%b %d, %Y"
+future: true
+social:
+  facebook: https://www.facebook.com/
+  instagram: https://www.instagram.com/
+  twitter: https://www.twitter.com/
+  linkedin: https://www.twitter.com/
+compress_html:
+  comments:
+  - "<!-- "
+  - " -->"
+  blanklines: true
+  profile: false

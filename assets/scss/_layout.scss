@@ -1,0 +1,158 @@
+//  Table of Contents:
+//
+//   1. Global
+//   2. Typography
+//   3. 404
+//   4. Hero
+//   5. About
+
+
+// 1. Global
+// ---------
+
+
+body {  
+  cursor: default;
+}
+
+svg {
+  max-width: 100%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+::selection {
+  background: $color--black;
+  color: $color--white;
+}
+
+.wrapper {
+  @include breakpoint(small) {
+    padding: 1rem;
+  }
+  @include breakpoint(medium) {
+    padding: 1.5rem;
+  }
+  @include breakpoint(large) {
+    padding: 2rem;
+  }
+}
+
+// 2. Typography
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+i, cite, em, var, address, dfn {
+  font-style: normal;
+}
+
+.italic {
+//   font-family: $body-font-family-italic;
+}
+
+// 3. 404
+
+.missing {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+// Navigation
+
+.top-bar-title {
+  font-family: $header-font-family;
+  text-transform: lowercase;
+  font-size: 2rem;
+}
+
+.top-bar-menu {
+  font-family: $header-font-family;
+}
+
+// Colors
+
+h2 {
+  color: $color--licorice;
+}
+
+// Section
+
+section {
+  padding: 3rem 1rem;
+}
+
+// 4. Hero
+
+
+.hero {
+  min-height: 60vh;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  background-position: center center;
+  background-size: cover;
+  @include breakpoint(small only) {
+    min-height: 90vh;
+  }
+  p {
+    color: $color--white;
+  }
+  a {
+    color: $color--white;
+  }
+  h1 {
+    color: $color--white;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.hero__text {
+  padding-top: 3rem;
+}
+
+// 5. About
+
+.about {
+  background-color: $color--carrara;
+}
+
+.about h4 {
+  color: $color--royal-blue;
+}
+
+.about__intro {
+  padding-bottom: 2rem;
+}
+
+.about__intro h2 {
+  padding-bottom: 1rem;
+}
+
+
+// 5. Speaking
+
+.speaking {
+  background-color: $color--licorice;
+}
+
+.speaking h4 {
+  color: $color--alluminium;
+}
+
+.speaking__extra {
+  padding-top: 1rem;
+}
+
+.speaking__intro {
+  padding-bottom: 2rem;
+}
+
+.speaking__intro h2 {
+  color: $color--white;
+  padding-bottom: 1rem;
+}
