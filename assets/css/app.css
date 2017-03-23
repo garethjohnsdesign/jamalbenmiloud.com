@@ -5067,9 +5067,9 @@ select {
 
 .callout {
   position: relative;
-  margin: 0 0 1rem 0;
-  padding: 1rem;
-  border: 1px solid rgba(0, 0, 0, 0.25);
+  margin: 0 0 2rem 0;
+  padding: 2rem;
+  border: 0px solid rgba(0, 0, 0, 0.25);
   border-radius: 5px;
   background-color: white;
   color: #696B79; }
@@ -7429,7 +7429,7 @@ h2 {
   color: #31354D; }
 
 section {
-  padding: 3rem 1rem; }
+  padding: 4rem 1rem; }
 
 .hero {
   min-height: 60vh;
@@ -7478,3 +7478,15 @@ section {
 .speaking__intro h2 {
   color: #FFFFFF;
   padding-bottom: 1rem; }
+
+.clients {
+  background-color: #EFF3F6; }
+
+.clients__intro {
+  padding-bottom: 2rem; }
+
+/*
+.clients h4 {
+  color: $color--royal-blue;
+}
+*/

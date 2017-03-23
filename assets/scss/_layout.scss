@@ -84,7 +84,7 @@ h2 {
 // Section
 
 section {
-  padding: 3rem 1rem;
+  padding: 4rem 1rem;
 }
 
 // 4. Hero
@@ -156,3 +156,19 @@ section {
   color: $color--white;
   padding-bottom: 1rem;
 }
+
+// 5. Clients
+
+.clients {
+  background-color: $color--aqua-haze;
+}
+
+.clients__intro {
+  padding-bottom: 2rem;
+}
+
+/*
+.clients h4 {
+  color: $color--royal-blue;
+}
+*/
