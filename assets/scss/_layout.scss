@@ -30,18 +30,6 @@ img {
   color: $color--white;
 }
 
-.wrapper {
-  @include breakpoint(small) {
-    padding: 1rem;
-  }
-  @include breakpoint(medium) {
-    padding: 1.5rem;
-  }
-  @include breakpoint(large) {
-    padding: 2rem;
-  }
-}
-
 // 2. Typography
 
 .uppercase {
@@ -84,26 +72,25 @@ h2 {
 // Section
 
 section {
-  padding: 4rem 1rem;
+  padding: 4rem 0rem;
 }
 
 // 4. Hero
 
 
 .hero {
-  min-height: 60vh;
   padding-top: 1rem;
   padding-bottom: 2rem;
   background-position: center center;
   background-size: cover;
-  @include breakpoint(small only) {
-    min-height: 90vh;
-  }
   p {
-    color: $color--white;
+    color: $color--aqua-haze;
   }
   a {
     color: $color--white;
+  }
+  a:hover {
+    color: $color--royal-blue;
   }
   h1 {
     color: $color--white;
@@ -112,7 +99,8 @@ section {
 }
 
 .hero__text {
-  padding-top: 3rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 // 5. About
@@ -138,6 +126,7 @@ section {
 
 .speaking {
   background-color: $color--licorice;
+  color: $color--aqua-haze;
 }
 
 .speaking h4 {
@@ -157,18 +146,78 @@ section {
   padding-bottom: 1rem;
 }
 
-// 5. Clients
+// 5. Testimonials
 
-.clients {
+.testimonials {
   background-color: $color--aqua-haze;
 }
 
-.clients__intro {
+.testimonials__intro {
   padding-bottom: 2rem;
 }
 
-/*
-.clients h4 {
+// 5. Consultant
+
+.consultant {
+  background-color: $color--white;
+}
+
+.consultant__intro {
+  padding-bottom: 2rem;
+}
+
+.consultant__company {
+  padding-bottom: 2rem;
+}
+
+.consultant__job-title {
   color: $color--royal-blue;
 }
-*/
+
+// 5. Book
+
+.book {
+  background-color: $color--aqua-haze;
+}
+
+.book h2 {
+  color: $color--royal-blue;
+  padding-bottom: 2rem;
+}
+
+.book__review__stars {
+  padding: 2rem;
+}
+
+.book__review__stars img {
+  margin: auto;
+}
+
+.book__review__cite {
+  color: $color--royal-blue;
+}
+
+// 5. Call to Action
+
+.cta {
+  background-color: $color--black-pearl;
+}
+
+.cta h2 {
+  color: $color--white;
+  padding-bottom: 2rem;
+}
+
+// Footer
+
+.footer ul li a {
+  padding: 0rem 2rem 0rem 2rem;
+}
+
+.footer__links {
+  padding-bottom: 2rem;
+}
+
+.footer__copyright a {
+  color: $color--dolphin;
+}

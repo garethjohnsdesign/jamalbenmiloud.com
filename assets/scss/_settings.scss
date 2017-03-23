@@ -143,7 +143,7 @@ $header-styles: (
   ),
   medium: (
     'h1': ('font-size': 30),
-    'h2': ('font-size': 36),
+    'h2': ('font-size': 28),
     'h3': ('font-size': 24),
     'h4': ('font-size': 20),
     'h5': ('font-size': 18),
@@ -270,7 +270,8 @@ $breadcrumbs-item-slash: true;
 // 11. Button
 // ----------
 
-$button-padding: 0.85em 1em;
+// $button-padding: 0.85em 1em;
+$button-padding: 0.85em 1em 0.6em 1em; 
 $button-margin: 0 0 $global-margin 0;
 $button-fill: solid;
 $button-background: $primary-color;

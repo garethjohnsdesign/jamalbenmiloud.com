@@ -9,17 +9,17 @@ layout: default
 
     <div class="top-bar row small-collapse expanded align-middle align-justify">
       
-      <div class="shrink columns top-bar-menu">
+      <div class="shrink columns top-bar-menu show-for-large">
         <ul class="menu align-right">
             {% for link in site.data.navigation %}
-              <li><a href="{{link.href}}">{{link.title}}</a></li>
+              <li><a href="{{link.url}}">{{link.title}}</a></li>
             {% endfor %}
-              <li><a href="{{link.href}}">Contact</a></li>
+              <li><a href="mailto:{{site.email}}">Contact</a></li>
         </ul>
       </div>
       
       <div class="shrink columns top-bar-title">
-          <a href="/">{{site.title}}</a>
+          <a href="/#about">{{site.title}}</a>
       </div>
     
     </div>
@@ -31,7 +31,7 @@ layout: default
   	<div class="medium-6 large-6 columns">
       <h1>{{page.hero-title}}</h1>
       <p>{{page.hero-text}}</p>
-      <a class="button" href="#">Contact</a>
+      <a href="mailto:{{site.email}}" class="button">Contact</a>
   	</div>
   </div>
   
@@ -79,6 +79,12 @@ layout: default
     {% endfor %}
   </div>
   
+  <div class="row align-center speaking__companies">
+  	<div class="large-8 columns text-center">
+      <img src="/uploads/logos.svg">
+  	</div>
+  </div>
+  
   <div class="row align-center speaking__extra">
   	<div class="large-8 columns text-center">
       <p>{{page.speaking-extra}}</p>
@@ -90,10 +96,10 @@ layout: default
 <!-- End Speaking -->
 
 
-<!-- Clients -->
-<section class="clients" id="clients">
+<!-- Testimonials -->
+<section class="testimonials" id="testimonials">
   
-  <div class="row align-center clients__intro">
+  <div class="row align-center testimonials__intro">
   	<div class="large-8 columns text-center">
       <h2>{{page.clients-title}}</h2>
       <p>{{page.clients-text}}</p>
@@ -110,7 +116,7 @@ layout: default
     {% endfor %}
   </div>
   
-  <div class="row align-center clients__logos">
+  <div class="row align-center testimonials__logos">
   	<div class="large-8 columns text-center">
         <ul class="menu align-center">
               <li><a href="{{link.href}}">{{link.title}}</a></li>
@@ -119,22 +125,81 @@ layout: default
   </div>
   
 </section>
-<!-- End Clients -->
+<!-- End Testimonials -->
 
-
-<!-- Call to Action -->
-<section class="cta" id="cta">
+<!-- Consultant -->
+<section class="consultant" id="consulting">
   
-  <div class="row align-center clients__intro">
+  <div class="row align-center consultant__intro">
   	<div class="large-8 columns text-center">
-      <h2>{{page.cta-title}}</h2>
+      <h2>{{page.consultant-title}}</h2>
+      <p>{{page.consultant-text}}</p>
   	</div>
   </div>
   
+  <div class="row align-center consultant__companies">
+    {% for company in page.consultant-company %}
+      <div class="small-12 medium-6 columns text-center consultant__company">
+        <h4>{{ company.company }}</h4>
+        <h4 class="consultant__job-title">{{ company.job-title }}</h4>
+        <a class="hollow button secondary" href="#">Learn More</a>
+        <p>{{ company.text | markdownify}}</p>
+      </div>
+    {% endfor %}
+  </div>
+  
+</section>
+<!-- End Consultant -->
+
+<!-- Book -->
+<section class="book" id="book">
+  
+  <div class="row align-center book__intro">
+  	<div class="large-8 columns text-center">
+      <h2>{{page.book-title}}</h2>
+      <p>{{page.book-text}}</p>
+      <a class="button" href="#">Order Now</a>
+      <a class="button" href="#">Request Sample</a>
+  	</div>
+  </div>
+  
+  <div class="row align-center book__reviews">
+    {% for review in page.book-reviews %}
+      <div class="small-12 medium-expand columns text-center">
+        <div class="book__review__stars text-center"><img src="/uploads/stars.svg"></div>
+        <h4>{{ review.title }}</h4>
+        <p>{{ review.text | markdownify }}</p>
+        <div class="book__review__cite"><p>{{ review.cite }}</p></div>
+      </div>
+    {% endfor %}
+  </div>
+  
+</section>
+<!-- End Book -->
+
+<!-- Call to Action -->
+<section class="cta" id="cta">
+  <div class="row align-center cta__intro">
+  	<div class="large-8 columns text-center">
+      <h2>{{page.cta-title}}</h2>
+      <a class="button" href="#">Contact</a>
+  	</div>
+  </div>
 </section>
 <!-- End Call to Action -->
 
-
-
-
-{% include footer.html %}
+<section class="footer">
+<div class="row small-collapse expanded align-middle align-center footer__links">
+  <div class="shrink columns">
+    <ul class="menu align-center">
+    <li><a href="http://garethjohnsdesign.com">LinkedIn</a></li>
+    <li><a href="http://garethjohnsdesign.com">Colophon</a></li>
+    </ul>
+  </div>
+</div>
+<div class="row align-center footer__copyright">
+  <div class="shrink columns">
+    <a href="http://earnstudios.com">© EARN Studios Limited</a>
+  </div>
+</div>
+</section>

@@ -1,6 +1,5 @@
 $(document).foundation();
 
-$('#gallery').lightGallery({
-    selector: '.excerpt',
-    download: false
+$('body').smoothScroll({
+  delegateSelector: '.top-bar a'
 });

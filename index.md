@@ -69,7 +69,48 @@ clients-clients:
 - Perfectly pitched and the right level — loved his honesty
 - Engaging. Good use of case studies and practical examples
 - Excellent presentation
-cta-title: 
+consultant-title: "Consultant quis risus eget urna mollis ornare vel eu leo."
+consultant-text: Sed posuere consectetur est at lobortis. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+consultant-company:
+- company: EARN Studios
+  job-title: "CEO / Founder"
+  link: "http://earnstudios.com"
+  text: Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus
+    magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur
+    ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Aenean
+    lacinia bibendum nulla sed consectetur. Sed posuere consectetur est at lobortis.
+- company: Huel
+  job-title: "Board Director"
+  link: "https://huel.com"
+  text: "Huel is a nutritionally complete powdered food that contains all the protein, carbs, fats, vitamins and minerals your body needs.
+Jamal sits on the board of the company and provides strategic consultancy to the founder with a vision to become the global number one complete food brand. Jamal’s consultancy ranges from marketing strategy, NPD, commercial strategy, global development as the business rapidly moves into new territories."
+- company: Founders 4 Schools
+  job-title: "Marketing Advisor"
+  link: "https://www.founders4schools.org.uk/"
+  text: "Our mission is to inspire students and prepare them for the rapidly changing world of work. We do this by enabling teachers to invite business leaders into the classroom in just 4 minutes. Our online platform is a free service, connecting teachers with leaders of successful growing businesses in their community. Jamal’s role is being on the Marketing Advisory board to provide strategic direction and ideas for the growth of the programme."
+- company: POW
+  job-title: "Non-Executive Director"
+  link: "http://www.powenergywater.com"
+  text: "POW Energy Water brings together the hydrating power of water with natural caffeine from guarana, natural sweetness from fruit and no artificial flavours or colourings."
+
+book-title: "If customers aren't talking about your brand, you might as well not exist."
+book-text: "In a world where the average customer grows up seeing 170,000 marketing messages by their 17th birthday; where 86% of people admit to sharing social media content in the bathroom; where 20% of smartphone users have installed adblocking browsers because of their loathing of advertising; customers only talk about the brands they LOVE. And, if customers aren't talking about your brand, you might as well not exist."
+book-reviews:
+- title: It is brilliantly researched and draw on case studies…
+  text: An inspiring look at how brands must behave if they want to succeed in the new world.
+  cite: Nick Foster
+- title: Very Impressed
+  text: Two words — excellent book
+  cite: Dr Tim O'Brien
+- title: A fantastic collection of insights. Brilliant
+  text: I thoroughly enjoyed this book. Easy to read, it provides theories and insights with real life business examples.
+  cite: Mr L
+- title: Inspiring and nicely written
+  text: Easy read, great examples, very inspiring!
+  cite: Tinkerbelle
+
+
+cta-title: No more business as usual
 layout: index
 ---
 
