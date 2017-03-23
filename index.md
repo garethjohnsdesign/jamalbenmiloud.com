@@ -69,6 +69,7 @@ clients-clients:
 - Perfectly pitched and the right level — loved his honesty
 - Engaging. Good use of case studies and practical examples
 - Excellent presentation
+cta-title: 
 layout: index
 ---
 
