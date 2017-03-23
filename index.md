@@ -59,9 +59,16 @@ speaking-qualities:
     lacus vel augue laoreet rutrum faucibus dolor auctor.
 speaking-extra: For additional or customizable presentations, please contact us.
 clients-title: Hear what people are saying
-clients-text: ''
+clients-text: 
 clients-clients:
-- text: Great balance of insights and case studies.
+- Great balance of insights and case studies
+- Has made me question how we currently market - centrally and locally
+- Set the benchmark for the rest of the conference
+- Leaving with a huge dose of ideas and inspiration
+- Excellent case studies to show innovation within the industry
+- Perfectly pitched and the right level — loved his honesty
+- Engaging. Good use of case studies and practical examples
+- Excellent presentation
 layout: index
 ---
 
