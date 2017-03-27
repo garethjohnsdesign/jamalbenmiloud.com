@@ -160,7 +160,7 @@ layout: default
       <div class="small-12 medium-6 columns text-center consultant__company">
         <h4>{{ company.company }}</h4>
         <h4 class="consultant__job-title">{{ company.job-title }}</h4>
-        <a class="hollow button secondary" href="#">Learn More</a>
+        <a class="hollow button secondary" href="{{ company.link }}" target="_blank">Learn More</a>
         <p>{{ company.text | markdownify}}</p>
       </div>
     {% endfor %}

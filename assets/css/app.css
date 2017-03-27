@@ -2341,7 +2341,7 @@ Copyright (c) 2015 Daniel Eden
  * @link https://github.com/jonsuh/hamburgers
  */
 .hamburger {
-  padding: 0.25rem 0rem 0rem 0rem;
+  padding: 0.4rem 0rem 0rem 0rem;
   display: inline-block;
   cursor: pointer;
   transition-property: opacity, filter;
