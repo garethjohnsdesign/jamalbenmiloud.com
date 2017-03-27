@@ -15,18 +15,22 @@ about-text: Jamal’s experience leading the innovative marketing teams at Monst
   and essentially create a marketing team of millions.
 about-qualities:
 - title: Keynote Speaker
+  icon: mic
   text: Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis
     natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
     ullamcorper nulla non metus auctor fringilla.
 - title: Leader
+  icon: users
   text: Former VP of Marketing at Monster Energy. Led the Global Brand Properties
     team at Red Bull. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
     auctor. Board Director of Huel, POW and F4S.
 - title: Author
+  icon: pencil3
   text: 'Co-author of Brand Love: How to Build a Brand Worth Talking About. Morbi
     leo risus, porta ac consectetur ac, vestibulum at eros. Curabitur blandit tempus
     porttitor. Donec ullamcorper nulla non metus.'
 - title: Founder
+  icon: wall
   text: Founder and CEO of EARN Studios. Morbi leo risus, porta ac consectetur ac,
     vestibulum at eros. Curabitur blandit tempus porttitor. Donec ullamcorper nulla
     non metus.
@@ -57,12 +61,13 @@ speaking-qualities:
     Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia
     odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis
     lacus vel augue laoreet rutrum faucibus dolor auctor.
+speaking-brands: Some of the case studies include
 speaking-extra: For additional or customizable presentations, please contact us.
 clients-title: Hear what people are saying
 clients-text: 
 clients-clients:
 - Great balance of insights and case studies
-- Has made me question how we currently market - centrally and locally
+- Has made me question how we currently market — centrally and locally
 - Set the benchmark for the rest of the conference
 - Leaving with a huge dose of ideas and inspiration
 - Excellent case studies to show innovation within the industry

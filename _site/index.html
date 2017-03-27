@@ -37,6 +37,27 @@
   <link rel="alternate" type="application/rss+xml" title="Jamal Benmiloud" href="http://jamalbenmiloud.com/feed.xml">
 </head>
 <body class="animated fadeIn">
+<div class="overlay show-for-small-only" id="overlay-mobile" data-toggler=".open">
+  <nav class="overlay-menu align-middle">
+      <ul class="align-middle">
+          <li class="element">
+            <a href="/#about" data-toggle="overlay-mobile toggle">About</a>
+          </li>
+          <li class="element">
+            <a href="/#speaking" data-toggle="overlay-mobile toggle">Speaking</a>
+          </li>
+          <li class="element">
+            <a href="/#testimonials" data-toggle="overlay-mobile toggle">Testimonials</a>
+          </li>
+          <li class="element">
+            <a href="/#consulting" data-toggle="overlay-mobile toggle">Consulting</a>
+          </li>
+          <li class="element">
+            <a href="/#book" data-toggle="overlay-mobile toggle">Book</a>
+          </li>
+      </ul>
+  </nav>
+</div>
 <section class="hero" id="hero" style="background-image: url(/uploads/hero.jpg)">
 <div class="row expanded">
 	<div class="large-12 columns">
@@ -54,6 +75,11 @@
       <div class="shrink columns top-bar-title">
           <a href="/#about">Jamal Benmiloud</a>
       </div>
+      <div class="shrink columns hide-for-large top-bar-menu-mobile">
+      <button class="hamburger hamburger--slider" data-toggler=".is-active" id="toggle" type="button" data-toggle="overlay-mobile toggle">
+        <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+      </button>
+      </div>
     </div>
 	</div>
 </div>
@@ -61,34 +87,39 @@
   	<div class="medium-6 large-6 columns">
       <h1>Business strategy keynote speaker</h1>
       <p>Find out how Jamal can help you turn consumers into a marketing team of millions to build your business faster in our digital economy.</p>
-      <a href="mailto:info@jamalbenmiloud.com" class="button">Contact</a>
+      <a href="mailto:info@jamalbenmiloud.com" class="button">Contact Jamal</a>
   	</div>
   </div>
 </section>
 <section class="about" id="about">
   <div class="row align-center about__intro">
-  	<div class="large-8 columns text-center">
+  	<div class="medium-10 large-8 columns text-center">
+    	<h6 class="section__title">About</h6>
       <h2>A straight-talking thought leader, with a reputation as one of the world’s most disruptive thinkers in marketing</h2>
       <p>Jamal’s experience leading the innovative marketing teams at Monster Energy and Red Bull, coupled with his vision for the future of marketing is both informative and inspiring. With a true understanding of marketing and knowledge of a diverse and successful marketing approach Jamal can turn consumers into brand advocates and essentially create a marketing team of millions.</p>
   	</div>
   </div>
   <div class="row align-center about__qualities">
-      <div class="small-12 medium-expand columns text-center">
+      <div class="small-12 medium-6 large-expand columns text-center">
+        <svg class="icon icon-mic icon-qualities"><use xlink:href="/assets/icons/symbol-defs.svg#icon-mic"></use></svg>
         <h4>Keynote Speaker</h4>
         <p><p>Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla.</p>
 </p>
       </div>
-      <div class="small-12 medium-expand columns text-center">
+      <div class="small-12 medium-6 large-expand columns text-center">
+        <svg class="icon icon-users icon-qualities"><use xlink:href="/assets/icons/symbol-defs.svg#icon-users"></use></svg>
         <h4>Leader</h4>
         <p><p>Former VP of Marketing at Monster Energy. Led the Global Brand Properties team at Red Bull. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Board Director of Huel, POW and F4S.</p>
 </p>
       </div>
-      <div class="small-12 medium-expand columns text-center">
+      <div class="small-12 medium-6 large-expand columns text-center">
+        <svg class="icon icon-pencil3 icon-qualities"><use xlink:href="/assets/icons/symbol-defs.svg#icon-pencil3"></use></svg>
         <h4>Author</h4>
         <p><p>Co-author of Brand Love: How to Build a Brand Worth Talking About. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitur blandit tempus porttitor. Donec ullamcorper nulla non metus.</p>
 </p>
       </div>
-      <div class="small-12 medium-expand columns text-center">
+      <div class="small-12 medium-6 large-expand columns text-center">
+        <svg class="icon icon-wall icon-qualities"><use xlink:href="/assets/icons/symbol-defs.svg#icon-wall"></use></svg>
         <h4>Founder</h4>
         <p><p>Founder and CEO of EARN Studios. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitur blandit tempus porttitor. Donec ullamcorper nulla non metus.</p>
 </p>
@@ -97,40 +128,42 @@
 </section>
 <section class="speaking" id="speaking">
   <div class="row align-center speaking__intro">
-  	<div class="large-8 columns text-center">
+  	<div class="medium-10 large-8 columns text-center">
+    	<h6 class="section__title">Speaking</h6>
       <h2>Impactful and thought-provoking keynotes about lorem ipsum dolor sit amet, consectetur adipiscing elit. </h2>
       <p>Below are a list of presentions that Jamal can provide as keynotes, conference sessions, as well as workshops.</p>
   	</div>
   </div>
   <div class="row align-center speaking__qualities">
-      <div class="small-12 medium-expand columns text-center">
+      <div class="small-12 medium-6 large-expand columns text-center">
         <h4>Brand Love</h4>
         <p><p>Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Sed posuere consectetur est at lobortis.</p>
 </p>
       </div>
-      <div class="small-12 medium-expand columns text-center">
+      <div class="small-12 medium-6 large-expand columns text-center">
         <h4>Content Marketing</h4>
         <p><p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas faucibus mollis interdum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
 </p>
       </div>
-      <div class="small-12 medium-expand columns text-center">
+      <div class="small-12 medium-6 large-expand columns text-center">
         <h4>Disruptive Marketing</h4>
         <p><p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 </p>
       </div>
-      <div class="small-12 medium-expand columns text-center">
+      <div class="small-12 medium-6 large-expand columns text-center">
         <h4>Brand Properties</h4>
         <p><p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas faucibus mollis interdum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
 </p>
       </div>
   </div>
   <div class="row align-center speaking__companies">
-  	<div class="large-8 columns text-center">
+  	<div class="medium-10 large-8 columns text-center">
+    	<p>Some of the case studies include</p>
       <img src="/uploads/logos.svg">
   	</div>
   </div>
   <div class="row align-center speaking__extra">
-  	<div class="large-8 columns text-center">
+  	<div class="medium-10 large-8 columns text-center">
       <p>For additional or customizable presentations, please contact us.</p>
       <a class="button" href="#">Contact</a>
   	</div>
@@ -138,7 +171,8 @@
 </section>
 <section class="testimonials" id="testimonials">
   <div class="row align-center testimonials__intro">
-  	<div class="large-8 columns text-center">
+  	<div class="medium-10 large-8 columns text-center">
+    	<h6 class="section__title">Testimonials</h6>
       <h2>Hear what people are saying</h2>
       <p></p>
   	</div>
@@ -146,47 +180,63 @@
   <div class="row align-center small-up-1 medium-up-2 large-up-4" data-equalizer>
       <div class="columns text-center">
         <div class="callout" data-equalizer-watch>
+          <svg class="icon icon-quote-open icon-quotes"><use xlink:href="/assets/icons/symbol-defs.svg#icon-quote-open"></use></svg>
           <h4>Great balance of insights and case studies</h4>
+          <svg class="icon icon-quote-close icon-quotes"><use xlink:href="/assets/icons/symbol-defs.svg#icon-quote-close"></use></svg>
         </div>
       </div>
       <div class="columns text-center">
         <div class="callout" data-equalizer-watch>
-          <h4>Has made me question how we currently market - centrally and locally</h4>
+          <svg class="icon icon-quote-open icon-quotes"><use xlink:href="/assets/icons/symbol-defs.svg#icon-quote-open"></use></svg>
+          <h4>Has made me question how we currently market — centrally and locally</h4>
+          <svg class="icon icon-quote-close icon-quotes"><use xlink:href="/assets/icons/symbol-defs.svg#icon-quote-close"></use></svg>
         </div>
       </div>
       <div class="columns text-center">
         <div class="callout" data-equalizer-watch>
+          <svg class="icon icon-quote-open icon-quotes"><use xlink:href="/assets/icons/symbol-defs.svg#icon-quote-open"></use></svg>
           <h4>Set the benchmark for the rest of the conference</h4>
+          <svg class="icon icon-quote-close icon-quotes"><use xlink:href="/assets/icons/symbol-defs.svg#icon-quote-close"></use></svg>
         </div>
       </div>
       <div class="columns text-center">
         <div class="callout" data-equalizer-watch>
+          <svg class="icon icon-quote-open icon-quotes"><use xlink:href="/assets/icons/symbol-defs.svg#icon-quote-open"></use></svg>
           <h4>Leaving with a huge dose of ideas and inspiration</h4>
+          <svg class="icon icon-quote-close icon-quotes"><use xlink:href="/assets/icons/symbol-defs.svg#icon-quote-close"></use></svg>
         </div>
       </div>
       <div class="columns text-center">
         <div class="callout" data-equalizer-watch>
+          <svg class="icon icon-quote-open icon-quotes"><use xlink:href="/assets/icons/symbol-defs.svg#icon-quote-open"></use></svg>
           <h4>Excellent case studies to show innovation within the industry</h4>
+          <svg class="icon icon-quote-close icon-quotes"><use xlink:href="/assets/icons/symbol-defs.svg#icon-quote-close"></use></svg>
         </div>
       </div>
       <div class="columns text-center">
         <div class="callout" data-equalizer-watch>
+          <svg class="icon icon-quote-open icon-quotes"><use xlink:href="/assets/icons/symbol-defs.svg#icon-quote-open"></use></svg>
           <h4>Perfectly pitched and the right level — loved his honesty</h4>
+          <svg class="icon icon-quote-close icon-quotes"><use xlink:href="/assets/icons/symbol-defs.svg#icon-quote-close"></use></svg>
         </div>
       </div>
       <div class="columns text-center">
         <div class="callout" data-equalizer-watch>
+          <svg class="icon icon-quote-open icon-quotes"><use xlink:href="/assets/icons/symbol-defs.svg#icon-quote-open"></use></svg>
           <h4>Engaging. Good use of case studies and practical examples</h4>
+          <svg class="icon icon-quote-close icon-quotes"><use xlink:href="/assets/icons/symbol-defs.svg#icon-quote-close"></use></svg>
         </div>
       </div>
       <div class="columns text-center">
         <div class="callout" data-equalizer-watch>
+          <svg class="icon icon-quote-open icon-quotes"><use xlink:href="/assets/icons/symbol-defs.svg#icon-quote-open"></use></svg>
           <h4>Excellent presentation</h4>
+          <svg class="icon icon-quote-close icon-quotes"><use xlink:href="/assets/icons/symbol-defs.svg#icon-quote-close"></use></svg>
         </div>
       </div>
   </div>
   <div class="row align-center testimonials__logos">
-  	<div class="large-8 columns text-center">
+  	<div class="medium-10 large-8 columns text-center">
         <ul class="menu align-center">
               <li><a href=""></a></li>
         </ul>
@@ -195,7 +245,8 @@
 </section>
 <section class="consultant" id="consulting">
   <div class="row align-center consultant__intro">
-  	<div class="large-8 columns text-center">
+  	<div class="medium-10 large-8 columns text-center">
+    	<h6 class="section__title">Consulting</h6>
       <h2>Consultant quis risus eget urna mollis ornare vel eu leo.</h2>
       <p>Sed posuere consectetur est at lobortis. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
   	</div>
@@ -233,7 +284,8 @@
 </section>
 <section class="book" id="book">
   <div class="row align-center book__intro">
-  	<div class="large-8 columns text-center">
+  	<div class="medium-10 large-8 columns text-center">
+    	<h6 class="section__title">Book</h6>
       <h2>If customers aren't talking about your brand, you might as well not exist.</h2>
       <p>In a world where the average customer grows up seeing 170,000 marketing messages by their 17th birthday; where 86% of people admit to sharing social media content in the bathroom; where 20% of smartphone users have installed adblocking browsers because of their loathing of advertising; customers only talk about the brands they LOVE. And, if customers aren't talking about your brand, you might as well not exist.</p>
       <a class="button" href="#">Order Now</a>
@@ -241,28 +293,28 @@
   	</div>
   </div>
   <div class="row align-center book__reviews">
-      <div class="small-12 medium-expand columns text-center">
+      <div class="small-12 medium-6 large-expand columns text-center">
         <div class="book__review__stars text-center"><img src="/uploads/stars.svg"></div>
         <h4>It is brilliantly researched and draw on case studies…</h4>
         <p><p>An inspiring look at how brands must behave if they want to succeed in the new world.</p>
 </p>
         <div class="book__review__cite"><p>Nick Foster</p></div>
       </div>
-      <div class="small-12 medium-expand columns text-center">
+      <div class="small-12 medium-6 large-expand columns text-center">
         <div class="book__review__stars text-center"><img src="/uploads/stars.svg"></div>
         <h4>Very Impressed</h4>
         <p><p>Two words — excellent book</p>
 </p>
         <div class="book__review__cite"><p>Dr Tim O'Brien</p></div>
       </div>
-      <div class="small-12 medium-expand columns text-center">
+      <div class="small-12 medium-6 large-expand columns text-center">
         <div class="book__review__stars text-center"><img src="/uploads/stars.svg"></div>
         <h4>A fantastic collection of insights. Brilliant</h4>
         <p><p>I thoroughly enjoyed this book. Easy to read, it provides theories and insights with real life business examples.</p>
 </p>
         <div class="book__review__cite"><p>Mr L</p></div>
       </div>
-      <div class="small-12 medium-expand columns text-center">
+      <div class="small-12 medium-6 large-expand columns text-center">
         <div class="book__review__stars text-center"><img src="/uploads/stars.svg"></div>
         <h4>Inspiring and nicely written</h4>
         <p><p>Easy read, great examples, very inspiring!</p>
@@ -273,9 +325,9 @@
 </section>
 <section class="cta" id="cta">
   <div class="row align-center cta__intro">
-  	<div class="large-8 columns text-center">
+  	<div class="medium-10 large-8 columns text-center">
       <h2>No more business as usual</h2>
-      <a class="button" href="#">Contact</a>
+      <a href="mailto:info@jamalbenmiloud.com" class="button">Contact Jamal</a>
   	</div>
   </div>
 </section>
@@ -283,7 +335,7 @@
 <div class="row small-collapse expanded align-middle align-center footer__links">
   <div class="shrink columns">
     <ul class="menu align-center">
-    <li><a href="http://garethjohnsdesign.com">LinkedIn</a></li>
+    <li><a href="https://www.twitter.com/">LinkedIn</a></li>
     <li><a href="http://garethjohnsdesign.com">Colophon</a></li>
     </ul>
   </div>

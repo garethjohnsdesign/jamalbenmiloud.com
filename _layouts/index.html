@@ -21,6 +21,16 @@ layout: default
       <div class="shrink columns top-bar-title">
           <a href="/#about">{{site.title}}</a>
       </div>
+      
+      <div class="shrink columns hide-for-large top-bar-menu-mobile">
+      <!-- Mobile Menu -->
+      <button class="hamburger hamburger--slider" data-toggler=".is-active" id="toggle" type="button" data-toggle="overlay-mobile toggle">
+        <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+      </button>
+      <!-- End Mobile Menu -->
+      </div>
+      
+      
     
     </div>
 
@@ -31,7 +41,7 @@ layout: default
   	<div class="medium-6 large-6 columns">
       <h1>{{page.hero-title}}</h1>
       <p>{{page.hero-text}}</p>
-      <a href="mailto:{{site.email}}" class="button">Contact</a>
+      <a href="mailto:{{site.email}}" class="button">Contact Jamal</a>
   	</div>
   </div>
   
@@ -42,7 +52,8 @@ layout: default
 <section class="about" id="about">
   
   <div class="row align-center about__intro">
-  	<div class="large-8 columns text-center">
+  	<div class="medium-10 large-8 columns text-center">
+    	<h6 class="section__title">About</h6>
       <h2>{{page.about-title}}</h2>
       <p>{{page.about-text}}</p>
   	</div>
@@ -50,7 +61,8 @@ layout: default
   
   <div class="row align-center about__qualities">
     {% for quality in page.about-qualities %}
-      <div class="small-12 medium-expand columns text-center">
+      <div class="small-12 medium-6 large-expand columns text-center">
+        <svg class="icon icon-{{ quality.icon }} icon-qualities"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{ quality.icon }}"></use></svg>
         <h4>{{ quality.title }}</h4>
         <p>{{ quality.text | markdownify}}</p>
       </div>
@@ -64,7 +76,8 @@ layout: default
 <section class="speaking" id="speaking">
   
   <div class="row align-center speaking__intro">
-  	<div class="large-8 columns text-center">
+  	<div class="medium-10 large-8 columns text-center">
+    	<h6 class="section__title">Speaking</h6>
       <h2>{{page.speaking-title}}</h2>
       <p>{{page.speaking-text}}</p>
   	</div>
@@ -72,7 +85,7 @@ layout: default
   
   <div class="row align-center speaking__qualities">
     {% for quality in page.speaking-qualities %}
-      <div class="small-12 medium-expand columns text-center">
+      <div class="small-12 medium-6 large-expand columns text-center">
         <h4>{{ quality.title }}</h4>
         <p>{{ quality.text | markdownify}}</p>
       </div>
@@ -80,13 +93,14 @@ layout: default
   </div>
   
   <div class="row align-center speaking__companies">
-  	<div class="large-8 columns text-center">
+  	<div class="medium-10 large-8 columns text-center">
+    	<p>{{page.speaking-brands}}</p>
       <img src="/uploads/logos.svg">
   	</div>
   </div>
   
   <div class="row align-center speaking__extra">
-  	<div class="large-8 columns text-center">
+  	<div class="medium-10 large-8 columns text-center">
       <p>{{page.speaking-extra}}</p>
       <a class="button" href="#">Contact</a>
   	</div>
@@ -100,7 +114,8 @@ layout: default
 <section class="testimonials" id="testimonials">
   
   <div class="row align-center testimonials__intro">
-  	<div class="large-8 columns text-center">
+  	<div class="medium-10 large-8 columns text-center">
+    	<h6 class="section__title">Testimonials</h6>
       <h2>{{page.clients-title}}</h2>
       <p>{{page.clients-text}}</p>
   	</div>
@@ -110,14 +125,16 @@ layout: default
     {% for client in page.clients-clients %}
       <div class="columns text-center">
         <div class="callout" data-equalizer-watch>
+          <svg class="icon icon-quote-open icon-quotes"><use xlink:href="/assets/icons/symbol-defs.svg#icon-quote-open"></use></svg>
           <h4>{{ client }}</h4>
+          <svg class="icon icon-quote-close icon-quotes"><use xlink:href="/assets/icons/symbol-defs.svg#icon-quote-close"></use></svg>
         </div>
       </div>
     {% endfor %}
   </div>
   
   <div class="row align-center testimonials__logos">
-  	<div class="large-8 columns text-center">
+  	<div class="medium-10 large-8 columns text-center">
         <ul class="menu align-center">
               <li><a href="{{link.href}}">{{link.title}}</a></li>
         </ul>
@@ -131,7 +148,8 @@ layout: default
 <section class="consultant" id="consulting">
   
   <div class="row align-center consultant__intro">
-  	<div class="large-8 columns text-center">
+  	<div class="medium-10 large-8 columns text-center">
+    	<h6 class="section__title">Consulting</h6>
       <h2>{{page.consultant-title}}</h2>
       <p>{{page.consultant-text}}</p>
   	</div>
@@ -155,7 +173,8 @@ layout: default
 <section class="book" id="book">
   
   <div class="row align-center book__intro">
-  	<div class="large-8 columns text-center">
+  	<div class="medium-10 large-8 columns text-center">
+    	<h6 class="section__title">Book</h6>
       <h2>{{page.book-title}}</h2>
       <p>{{page.book-text}}</p>
       <a class="button" href="#">Order Now</a>
@@ -165,7 +184,7 @@ layout: default
   
   <div class="row align-center book__reviews">
     {% for review in page.book-reviews %}
-      <div class="small-12 medium-expand columns text-center">
+      <div class="small-12 medium-6 large-expand columns text-center">
         <div class="book__review__stars text-center"><img src="/uploads/stars.svg"></div>
         <h4>{{ review.title }}</h4>
         <p>{{ review.text | markdownify }}</p>
@@ -180,9 +199,9 @@ layout: default
 <!-- Call to Action -->
 <section class="cta" id="cta">
   <div class="row align-center cta__intro">
-  	<div class="large-8 columns text-center">
+  	<div class="medium-10 large-8 columns text-center">
       <h2>{{page.cta-title}}</h2>
-      <a class="button" href="#">Contact</a>
+      <a href="mailto:{{site.email}}" class="button">Contact Jamal</a>
   	</div>
   </div>
 </section>
@@ -192,7 +211,7 @@ layout: default
 <div class="row small-collapse expanded align-middle align-center footer__links">
   <div class="shrink columns">
     <ul class="menu align-center">
-    <li><a href="http://garethjohnsdesign.com">LinkedIn</a></li>
+    <li><a href="{{site.social.linkedin}}">LinkedIn</a></li>
     <li><a href="http://garethjohnsdesign.com">Colophon</a></li>
     </ul>
   </div>

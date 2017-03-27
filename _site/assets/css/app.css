@@ -2333,6 +2333,78 @@ Copyright (c) 2015 Daniel Eden
   font-weight: normal;
   font-style: normal; }
 
+/*!
+ * Hamburgers
+ * @description Tasty CSS-animated hamburgers
+ * @author Jonathan Suh @jonsuh
+ * @site https://jonsuh.com/hamburgers
+ * @link https://github.com/jonsuh/hamburgers
+ */
+.hamburger {
+  padding: 0.25rem 0rem 0rem 0rem;
+  display: inline-block;
+  cursor: pointer;
+  transition-property: opacity, filter;
+  transition-duration: 0.05s;
+  transition-timing-function: linear;
+  font: inherit;
+  color: inherit;
+  text-transform: none;
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  overflow: visible; }
+  .hamburger:hover {
+    opacity: 0.5; }
+
+.hamburger-box {
+  width: 40px;
+  height: 18px;
+  display: inline-block;
+  position: relative; }
+
+.hamburger-inner {
+  display: block;
+  top: 50%;
+  margin-top: -1px; }
+  .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+    width: 40px;
+    height: 2px;
+    background-color: #FFFFFF;
+    border-radius: 0px;
+    position: absolute;
+    transition-property: transform;
+    transition-duration: 0.15s;
+    transition-timing-function: ease; }
+  .hamburger-inner::before, .hamburger-inner::after {
+    content: "";
+    display: block; }
+  .hamburger-inner::before {
+    top: -8px; }
+  .hamburger-inner::after {
+    bottom: -8px; }
+
+.hamburger-inner-dark, .hamburger-inner-dark::before, .hamburger-inner-dark::after {
+  background-color: #000000; }
+
+.hamburger--slider .hamburger-inner {
+  top: 1px; }
+  .hamburger--slider .hamburger-inner::before {
+    top: 8px;
+    transition-property: transform, opacity;
+    transition-timing-function: ease;
+    transition-duration: 0.15s; }
+  .hamburger--slider .hamburger-inner::after {
+    top: 16px; }
+
+.hamburger--slider.is-active .hamburger-inner {
+  transform: translate3d(0, 8px, 0) rotate(45deg); }
+  .hamburger--slider.is-active .hamburger-inner::before {
+    transform: rotate(-45deg) translate3d(-5.7142857143px, -6px, 0);
+    opacity: 0; }
+  .hamburger--slider.is-active .hamburger-inner::after {
+    transform: translate3d(0, -16px, 0) rotate(-90deg); }
+
 /*
 $foundation-palette: (
   primary: #1779ba,
@@ -7320,69 +7392,65 @@ a.thumbnail {
   stroke: currentColor;
   fill: currentColor; }
 
-/* =======================================================================================
-Example showing how to change the color/size of the icons:
+/* ==========================================
+Single-colored icons can be modified like so:
 .icon-name {
-	font-size: 32px; // works because "width" & "height" were set using em units
-	color: red; // works for single-colored icons, because "fill" was set to "currentColor"
+  font-size: 32px;
+  color: red;
 }
-======================================================================================== */
-/*
-.index__connect .icon {
-    font-size: 1.5rem;
-}
+========================================== */
+.icon-qualities {
+  font-size: 2rem; }
 
-.footer__bottom__socials .icon {
-    font-size: 1.25rem;
-}
+.icon-quotes {
+  font-size: 1.5rem;
+  color: #DDE3E7; }
 
-.icon-logo {
-    width: 2.1357421875em;
-}
+.overlay {
+  z-index: 1001;
+  position: fixed;
+  display: flex;
+  align-items: stretch;
+  background: #DDE3E7;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .35s, visibility .35s;
+  overflow: hidden; }
+  .overlay.open {
+    opacity: 0.98;
+    visibility: visible; }
+    .overlay.open li {
+      animation: fadeIn .5s ease forwards; }
+  .overlay nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; }
+  .overlay ul {
+    list-style: none; }
+    .overlay ul li {
+      font-size: 2rem;
+      padding: 16px;
+      min-height: 2rem;
+      text-align: center;
+      /*
+      a:hover {
+      color: $color--white;
+      }
+*/ }
+      .overlay ul li a {
+        padding: 16px; }
 
-// Styling
-.icon-logo {
-    font-size: 3rem;
-}
-
-.icon-logo--footer {
-    font-size: 2rem;
-}
-
-svg.icon.icon-envelop2 {
-	vertical-align: text-bottom;
-}
-
-.icon-arrow-up8 {
-	font-size: 2rem;
-	color: $color--gray;
-	transition: $primary-transition;
-  &:hover {
-  color: $color--black;
-  }
-}
-
-.icon-left-long {
-  font-size: 2rem;
-  margin-right: 1rem;
-  margin-top: 1rem;
-  color: $color--white;
-	transition: $primary-transition;
-  &:hover {
-  color: $color--amber;
-  }
-}
-
-.icon-right-long {
-  font-size: 2rem;
-  margin-top: 1rem;
-  color: $color--white;
-	transition: $primary-transition;
-  &:hover {
-  color: $color--amber;
-  }
-}
-*/
 body {
   cursor: default; }
 
@@ -7404,6 +7472,11 @@ img {
 i, cite, em, var, address, dfn {
   font-style: normal; }
 
+.section__title {
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  padding-bottom: 1rem; }
+
 .missing {
   margin-top: 3rem;
   margin-bottom: 3rem; }
@@ -7412,9 +7485,22 @@ i, cite, em, var, address, dfn {
   font-family: "GTWalsheimProMedium", Helvetica, Roboto, Arial, sans-serif;
   text-transform: lowercase;
   font-size: 2rem; }
+  .top-bar-title a {
+    color: #FFFFFF;
+    transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
+  .top-bar-title a:hover {
+    color: #3A5EE9; }
 
 .top-bar-menu {
   font-family: "GTWalsheimProMedium", Helvetica, Roboto, Arial, sans-serif; }
+  .top-bar-menu a {
+    color: #FFFFFF;
+    transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
+  .top-bar-menu a:hover {
+    color: #3A5EE9; }
+
+.top-bar-menu-mobile {
+  z-index: 1001; }
 
 h2 {
   color: #31354D; }
@@ -7429,10 +7515,6 @@ section {
   background-size: cover; }
   .hero p {
     color: #EFF3F6; }
-  .hero a {
-    color: #FFFFFF; }
-  .hero a:hover {
-    color: #3A5EE9; }
   .hero h1 {
     color: #FFFFFF;
     padding-bottom: 0.5rem; }
@@ -7453,6 +7535,9 @@ section {
 .about__intro h2 {
   padding-bottom: 1rem; }
 
+.about__qualities h4 {
+  padding-top: 0.5rem; }
+
 .speaking {
   background-color: #31354D;
   color: #EFF3F6; }
@@ -7470,6 +7555,9 @@ section {
   color: #FFFFFF;
   padding-bottom: 1rem; }
 
+.speaking__companies {
+  padding-top: 2rem; }
+
 .testimonials {
   background-color: #EFF3F6; }
 
@@ -7485,8 +7573,12 @@ section {
 .consultant__company {
   padding-bottom: 2rem; }
 
+.consultant__company h4 {
+  margin-bottom: 0rem; }
+
 .consultant__job-title {
-  color: #3A5EE9; }
+  color: #3A5EE9;
+  padding-bottom: 1rem; }
 
 .book {
   background-color: #EFF3F6; }

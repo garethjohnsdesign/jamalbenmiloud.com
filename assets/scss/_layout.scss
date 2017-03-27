@@ -44,6 +44,12 @@ i, cite, em, var, address, dfn {
 //   font-family: $body-font-family-italic;
 }
 
+.section__title {
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  padding-bottom: 1rem;
+}
+
 // 3. 404
 
 .missing {
@@ -57,10 +63,28 @@ i, cite, em, var, address, dfn {
   font-family: $header-font-family;
   text-transform: lowercase;
   font-size: 2rem;
+  a {
+    color: $color--white;
+    transition: $primary-transition;
+  }
+  a:hover {
+    color: $color--royal-blue;
+  }
 }
 
 .top-bar-menu {
   font-family: $header-font-family;
+  a {
+    color: $color--white;
+    transition: $primary-transition;
+  }
+  a:hover {
+    color: $color--royal-blue;
+  }
+}
+
+.top-bar-menu-mobile {
+  z-index: 1001;
 }
 
 // Colors
@@ -85,12 +109,6 @@ section {
   background-size: cover;
   p {
     color: $color--aqua-haze;
-  }
-  a {
-    color: $color--white;
-  }
-  a:hover {
-    color: $color--royal-blue;
   }
   h1 {
     color: $color--white;
@@ -121,6 +139,10 @@ section {
   padding-bottom: 1rem;
 }
 
+.about__qualities h4 {
+  padding-top: 0.5rem;
+}
+
 
 // 5. Speaking
 
@@ -144,6 +166,10 @@ section {
 .speaking__intro h2 {
   color: $color--white;
   padding-bottom: 1rem;
+}
+
+.speaking__companies {
+  padding-top: 2rem;
 }
 
 // 5. Testimonials
@@ -170,8 +196,13 @@ section {
   padding-bottom: 2rem;
 }
 
+.consultant__company h4 {
+  margin-bottom: 0rem;
+}
+
 .consultant__job-title {
   color: $color--royal-blue;
+  padding-bottom: 1rem;
 }
 
 // 5. Book
