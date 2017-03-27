@@ -30,6 +30,10 @@ img {
   color: $color--white;
 }
 
+:focus {
+outline: 0;
+}
+
 // 2. Typography
 
 .uppercase {

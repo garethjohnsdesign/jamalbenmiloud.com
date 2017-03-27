@@ -930,8 +930,8 @@ Copyright (c) 2015 Daniel Eden
 @-webkit-keyframes fadeInUp {
   from {
     opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0); }
+    -webkit-transform: translate3d(0, 25%, 0);
+    transform: translate3d(0, 25%, 0); }
   to {
     opacity: 1;
     -webkit-transform: none;
@@ -940,8 +940,8 @@ Copyright (c) 2015 Daniel Eden
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0); }
+    -webkit-transform: translate3d(0, 25%, 0);
+    transform: translate3d(0, 25%, 0); }
   to {
     opacity: 1;
     -webkit-transform: none;
@@ -2213,8 +2213,8 @@ Copyright (c) 2015 Daniel Eden
 
 @-webkit-keyframes slideInUp {
   from {
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
+    -webkit-transform: translate3d(0, 25%, 0);
+    transform: translate3d(0, 25%, 0);
     visibility: visible; }
   to {
     -webkit-transform: translate3d(0, 0, 0);
@@ -2222,8 +2222,8 @@ Copyright (c) 2015 Daniel Eden
 
 @keyframes slideInUp {
   from {
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
+    -webkit-transform: translate3d(0, 25%, 0);
+    transform: translate3d(0, 25%, 0);
     visibility: visible; }
   to {
     -webkit-transform: translate3d(0, 0, 0);
@@ -7465,6 +7465,9 @@ img {
 ::selection {
   background: #000000;
   color: #FFFFFF; }
+
+:focus {
+  outline: 0; }
 
 .uppercase {
   text-transform: uppercase; }
