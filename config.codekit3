@@ -105,6 +105,25 @@
 		"oAP": "\/build\/_site",
 		"oF": 0
 		},
+	"\/_uploads\/book.jpg": {
+		"ft": 16384,
+		"iS": 107448,
+		"oA": 0,
+		"oAP": "\/_uploads\/book.jpg",
+		"oF": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/_uploads\/book.png": {
+		"ft": 32768,
+		"iS": 239277,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/_uploads\/book.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/_uploads\/hero.jpg": {
 		"ft": 16384,
 		"iS": 138005,

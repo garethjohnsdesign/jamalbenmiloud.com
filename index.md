@@ -116,6 +116,7 @@ book-text: In a world where the average customer grows up seeing 170,000 marketi
   browsers because of their loathing of advertising; customers only talk about the
   brands they LOVE. And, if customers aren't talking about your brand, you might as
   well not exist.
+book-image: "/uploads/book.png"
 book-reviews:
 - title: It is brilliantly researched and draw on case studies…
   text: An inspiring look at how brands must behave if they want to succeed in the
