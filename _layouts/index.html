@@ -5,50 +5,44 @@ layout: default
 <!-- Hero -->
 <section class="hero" id="hero" style="background-image: url({{page.hero-image}})">
 
-<div class="row expanded">
-	<div class="large-12 columns">
-    
-    <div data-sticky-container>
-    <div class="top-bar row small-collapse expanded align-middle align-justify" data-sticky data-options="marginTop:0;" style="width:100%">
-      
-      <div class="shrink columns top-bar-menu show-for-large">
-        <ul class="menu align-right">
-            {% for link in site.data.navigation %}
-              <li><a href="{{link.url}}">{{link.title}}</a></li>
-            {% endfor %}
-              <li><a href="mailto:{{site.email}}">Contact</a></li>
-        </ul>
-      </div>
-      
-      <div class="shrink columns top-bar-title">
-          <a href="/#about">{{site.title}}</a>
-      </div>
-      
-      <div class="shrink columns hide-for-large top-bar-menu-mobile">
-      <!-- Mobile Menu -->
-      <button class="hamburger hamburger--slider" data-toggler=".is-active" id="toggle" type="button" data-toggle="overlay-mobile toggle">
-        <span class="hamburger-box"><span class="hamburger-inner"></span></span>
-      </button>
-      <!-- End Mobile Menu -->
-      </div>
-      </div>
-      
-      
-    
-    </div>
+          
+          <div data-sticky-container>
 
-	</div>
-</div>
+            <div class="top-bar row small-collapse expanded align-middle align-justify" data-sticky data-margin-top='1'>
+              
+              <div class="shrink columns top-bar-menu show-for-large">
+                <ul class="menu align-right">
+                    {% for link in site.data.navigation %}
+                      <li><a href="{{link.url}}">{{link.title}}</a></li>
+                    {% endfor %}
+                      <li><a href="mailto:{{site.email}}">Contact</a></li>
+                </ul>
+              </div>
+              
+              <div class="shrink columns top-bar-title">
+                  <a href="/#about">{{site.title}}</a>
+              </div>
+              
+              <div class="shrink columns hide-for-large top-bar-menu-mobile">
+                <button class="hamburger hamburger--slider" data-toggler=".is-active" id="toggle" type="button" data-toggle="overlay-mobile toggle">
+                  <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+                </button>
+              </div>
+              
+            </div>
 
-  <div class="row hero__text wow fadeIn">
-  	<div class="medium-6 large-6 columns">
-      <h1>{{page.hero-title}}</h1>
-      <p>{{page.hero-text}}</p>
-      <a href="mailto:{{site.email}}" class="button">Contact Jamal</a>
-  	</div>
-  </div>
+          </div>
+
+    
+      <div class="row hero__text wow fadeIn">
+      	<div class="medium-6 large-6 columns">
+          <h1>{{page.hero-title}}</h1>
+          <p>{{page.hero-text}}</p>
+          <a href="mailto:{{site.email}}" class="button">Contact Jamal</a>
+      	</div>
+      </div>
   
-  
+
 </section>
 <!-- End Hero -->
 
