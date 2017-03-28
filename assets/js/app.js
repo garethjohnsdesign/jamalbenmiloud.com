@@ -1,7 +1,8 @@
 $(document).foundation();
 
 $('body').smoothScroll({
-  delegateSelector: '.top-bar a'
+  delegateSelector: '.top-bar a',
+  offset: -64
 });
 
 $('.top-bar').on('sticky.zf.stuckto:top', function(){
@@ -24,15 +25,9 @@ wow.init();
 
 
 $(window).scroll(function() {
-// 100 = The point you would like to fade the nav in.
-  
 	if ($(window).scrollTop() > 100 ){
-    
  		$('.top-bar').addClass('show');
-    
   } else {
-    
     $('.top-bar').removeClass('show');
-    
  	};   	
 });
