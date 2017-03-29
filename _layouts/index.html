@@ -1,0 +1,233 @@
+---
+layout: default
+---
+
+<!-- Hero -->
+<section class="hero" id="hero" style="background-image: url({{page.hero-image}})">
+
+          
+          <div data-sticky-container>
+
+            <div class="top-bar row small-collapse expanded align-middle align-justify" data-sticky data-margin-top='1'>
+              
+              <div class="shrink columns top-bar-menu show-for-large">
+                <ul class="menu align-right">
+                    {% for link in site.data.navigation %}
+                      <li><a href="{{link.url}}">{{link.title}}</a></li>
+                    {% endfor %}
+                      <li><a href="mailto:{{site.email}}">Contact</a></li>
+                </ul>
+              </div>
+              
+              <div class="shrink columns top-bar-title">
+                  <a href="/#about">{{site.title}}</a>
+              </div>
+              
+              <div class="shrink columns hide-for-large top-bar-menu-mobile">
+                <button class="hamburger hamburger--slider" data-toggler=".is-active" id="toggle" type="button" data-toggle="overlay-mobile toggle">
+                  <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+                </button>
+              </div>
+              
+            </div>
+
+          </div>
+
+    
+      <div class="row hero__text wow fadeIn">
+      	<div class="small-8 medium-6 large-6 columns">
+          <h1>{{page.hero-title}}</h1>
+          <p class="show-for-medium">{{page.hero-text}}</p>
+          <a href="mailto:{{site.email}}" class="button">Contact Jamal</a>
+      	</div>
+      </div>
+  
+
+</section>
+<!-- End Hero -->
+
+<!-- About -->
+<section class="about" id="about">
+  
+  <div class="row align-center about__intro wow fadeInUp">
+  	<div class="medium-10 large-8 columns text-center">
+    	<h6 class="section__title show-for-small-only">About</h6>
+      <h2>{{page.about-title}}</h2>
+      <p>{{page.about-text}}</p>
+  	</div>
+  </div>
+  
+  <div class="row align-center about__qualities wow fadeInUp">
+    {% for quality in page.about-qualities %}
+      <div class="small-12 medium-6 large-expand columns text-center">
+        <svg class="icon icon-{{ quality.icon }} icon-qualities"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{ quality.icon }}"></use></svg>
+        <h4>{{ quality.title }}</h4>
+        <p>{{ quality.text | markdownify}}</p>
+      </div>
+    {% endfor %}
+  </div>
+  
+</section>
+<!-- End About -->
+
+<!-- Speaking -->
+<section class="speaking" id="speaking">
+  
+  <div class="row align-center speaking__intro wow fadeInUp">
+  	<div class="medium-10 large-8 columns text-center">
+    	<h6 class="section__title show-for-small-only">Speaking</h6>
+      <h2>{{page.speaking-title}}</h2>
+      <p>{{page.speaking-text}}</p>
+  	</div>
+  </div>
+  
+  <div class="row align-center speaking__qualities wow fadeInUp">
+    {% for quality in page.speaking-qualities %}
+      <div class="small-12 medium-6 large-expand columns text-center">
+        <h4>{{ quality.title }}</h4>
+        <p>{{ quality.text | markdownify}}</p>
+      </div>
+    {% endfor %}
+  </div>
+  
+  <div class="row align-center speaking__companies wow fadeInUp">
+  	<div class="medium-10 large-8 columns text-center">
+    	<p>{{page.speaking-brands}}</p>
+      <img src="/uploads/logos.svg">
+  	</div>
+  </div>
+  
+  <div class="row align-center speaking__extra wow fadeInUp">
+  	<div class="medium-10 large-8 columns text-center">
+      <p>{{page.speaking-extra}}</p>
+      <a class="button" href="#">Contact</a>
+  	</div>
+  </div>
+  
+</section>
+<!-- End Speaking -->
+
+
+<!-- Testimonials -->
+<section class="testimonials" id="testimonials">
+  
+  <div class="row align-center testimonials__intro wow fadeInUp">
+  	<div class="medium-10 large-8 columns text-center">
+    	<h6 class="section__title show-for-small-only">Testimonials</h6>
+      <h2>{{page.clients-title}}</h2>
+      <p>{{page.clients-text}}</p>
+  	</div>
+  </div>
+  
+  <div class="row align-center small-up-1 medium-up-2 large-up-4 wow fadeInUp" data-equalizer>
+    {% for client in page.clients-clients %}
+      <div class="columns text-center">
+        <div class="callout" data-equalizer-watch>
+          <svg class="icon icon-quote-open icon-quotes"><use xlink:href="/assets/icons/symbol-defs.svg#icon-quote-open"></use></svg>
+          <h4>{{ client.quote }}</h4>
+          <svg class="icon icon-quote-close icon-quotes"><use xlink:href="/assets/icons/symbol-defs.svg#icon-quote-close"></use></svg>
+          <p><small>{{ client.event }}</small></p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  
+  <div class="row align-center testimonials__logos wow fadeInUp">
+  	<div class="medium-10 large-8 columns text-center">
+        <ul class="menu align-center">
+              <li><a href="{{link.href}}">{{link.title}}</a></li>
+        </ul>
+  	</div>
+  </div>
+  
+</section>
+<!-- End Testimonials -->
+
+<!-- Consultant -->
+<section class="consultant" id="consulting">
+  
+  <div class="row align-center consultant__intro wow fadeInUp">
+  	<div class="medium-10 large-8 columns text-center">
+    	<h6 class="section__title show-for-small-only">Consulting</h6>
+      <h2>{{page.consultant-title}}</h2>
+      <p>{{page.consultant-text}}</p>
+  	</div>
+  </div>
+  
+  <div class="row align-center consultant__companies wow fadeInUp">
+    {% for company in page.consultant-company %}
+      <div class="small-12 medium-6 columns text-center consultant__company">
+        <h4>{{ company.company }}</h4>
+        <h4 class="consultant__job-title">{{ company.job-title }}</h4>
+        <a class="hollow button secondary" href="{{ company.link }}" target="_blank">Learn More</a>
+        <p>{{ company.text | markdownify}}</p>
+      </div>
+    {% endfor %}
+  </div>
+  
+</section>
+<!-- End Consultant -->
+
+<!-- Book -->
+<section class="book" id="book">
+  
+  <div class="row align-center book__intro wow fadeInUp">
+  	<div class="small-12 medium-12 large-6 columns">
+    	<h6 class="section__title show-for-small-only">Book</h6>
+      <h2>{{page.book-title}}</h2>
+      <p>{{page.book-text}}</p>
+      <a class="button" href="https://www.amazon.co.uk/Brand-Love-Build-Worth-Talking-ebook/dp/B00VBPBU1G" target="_blank">Order Now</a>
+      <a class="button" data-open="exampleModal1">Request Sample</a>
+  	</div>
+  	
+  	<div class="small-12 medium-12 large-6 columns">
+      <img src="/uploads/book.jpg">
+  	</div>
+  	
+  </div>
+  
+  <div class="row align-center book__reviews wow fadeInUp">
+    {% for review in page.book-reviews %}
+      <div class="small-12 medium-6 large-expand columns text-center">
+        <div class="book__review__stars text-center"><img src="/uploads/stars.svg"></div>
+        <h4>{{ review.title }}</h4>
+        <p>{{ review.text | markdownify }}</p>
+        <div class="book__review__cite"><p>{{ review.cite }}</p></div>
+      </div>
+    {% endfor %}
+  </div>
+  
+</section>
+<!-- End Book -->
+
+<!-- Call to Action -->
+<section class="cta" id="cta">
+  <div class="row align-center cta__intro wow fadeInUp">
+  	<div class="medium-10 large-8 columns text-center">
+      <h2>{{page.cta-title}}</h2>
+      <a href="mailto:{{site.email}}" class="button">Contact Jamal</a>
+  	</div>
+  </div>
+</section>
+<!-- End Call to Action -->
+
+<section class="footer">
+<div class="row small-collapse expanded align-middle align-center footer__links wow fadeInUp">
+  <div class="shrink columns">
+    <ul class="menu align-center">
+    <li><a href="{{site.social.linkedin}}">LinkedIn</a></li>
+    <li><a href="http://garethjohnsdesign.com">Colophon</a></li>
+    </ul>
+  </div>
+</div>
+<div class="row align-center footer__copyright wow fadeInUp">
+  <div class="shrink columns">
+    <a href="http://earnstudios.com">© EARN Studios Limited</a>
+  </div>
+</div>
+</section>
+
+
+<div class="reveal" id="exampleModal1" data-reveal>
+{% include bookrequest.html %}
+</div>
