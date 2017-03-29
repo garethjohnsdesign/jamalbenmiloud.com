@@ -157,31 +157,13 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/_uploads\/hero-1.jpg": {
-		"ft": 16384,
-		"iS": 253258,
-		"oA": 0,
-		"oAP": "\/_uploads\/hero-1.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_uploads\/hero-2.jpg": {
+	"\/_uploads\/hero.jpg": {
 		"ft": 16384,
 		"iS": 314369,
 		"oA": 0,
-		"oAP": "\/_uploads\/hero-2.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_uploads\/hero.jpg": {
-		"ft": 16384,
-		"iS": 138005,
-		"oA": 0,
 		"oAP": "\/_uploads\/hero.jpg",
 		"oF": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/_uploads\/logos.svg": {

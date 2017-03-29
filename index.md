@@ -2,9 +2,9 @@
 title: Jamal Benmiloud
 position: 0
 image: "/assets/img/og-image.png"
-hero-image: "/uploads/hero-2.jpg"
+hero-image: "/uploads/hero.jpg"
 hero-title: Disruptive marketing keynote speaker
-hero-text: Find out how Jamal, former marketing leader at Red Bull and Monster Energy, can help you look at marketing in a different way to grow your business faster in our connection economy.
+hero-text: Find out how Jamal, former marketing leader at Red Bull and Monster Energy, can help you look at marketing in a different way to grow your business faster in our connection economy
 about-title: A straight-talking thought leader, with a reputation as one of the world’s most disruptive thinkers in marketing
 about-text: "Jamal’s experience leading the innovative teams at Red Bull and Monster Energy, coupled with his vision for the future of marketing shared in his book ‘How to Build a Brand Worth Talking About’, is both informative and inspiring"
 about-qualities:
