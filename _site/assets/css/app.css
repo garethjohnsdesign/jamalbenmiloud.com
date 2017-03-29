@@ -4361,18 +4361,18 @@ ul,
 ol,
 dl {
   margin-bottom: 1rem;
-  list-style-position: outside;
+  list-style-position: inside;
   line-height: 1.6; }
 
 li {
   font-size: inherit; }
 
 ul {
-  margin-left: 1.25rem;
-  list-style-type: disc; }
+  margin-left: 0rem;
+  list-style-type: circle; }
 
 ol {
-  margin-left: 1.25rem; }
+  margin-left: 0rem; }
 
 ul ul, ol ul, ul ol, ol ol {
   margin-left: 1.25rem;
@@ -7478,6 +7478,10 @@ img {
 i, cite, em, var, address, dfn {
   font-style: normal; }
 
+.callout p {
+  margin-top: 1rem;
+  line-height: 1.2; }
+
 .section__title {
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -7585,6 +7589,18 @@ section {
 
 .speaking__companies {
   padding-top: 2rem; }
+
+.speaking__qualities ul li {
+  padding-bottom: 1rem;
+  color: #FFFFFF;
+  list-style-type: none; }
+
+.speaking__qualities ul li:before {
+  /* Unicode bullet symbol */
+  content: '\2022 ';
+  /* Bullet color */
+  color: #999999;
+  padding-right: 0.5em; }
 
 .testimonials {
   background-color: #EDEDE8; }

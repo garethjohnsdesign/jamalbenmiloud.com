@@ -52,6 +52,11 @@ i, cite, em, var, address, dfn {
 //   font-family: $body-font-family-italic;
 }
 
+.callout p {
+  margin-top: 1rem;
+  line-height: 1.2;
+}
+
 .section__title {
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -204,6 +209,20 @@ section {
 
 .speaking__companies {
   padding-top: 2rem;
+}
+
+.speaking__qualities ul li {
+    padding-bottom: 1rem;
+    color: $color--white;
+    list-style-type: none;
+}
+
+.speaking__qualities ul li:before {
+    /* Unicode bullet symbol */
+    content: '\2022 ';
+    /* Bullet color */
+    color: $color--alluminium;
+    padding-right: 0.5em;
 }
 
 // 5. Testimonials
