@@ -91,4 +91,3 @@ book-reviews:
 cta-title: No more business as usual
 layout: index
 ---
-
