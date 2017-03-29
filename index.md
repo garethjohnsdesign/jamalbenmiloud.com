@@ -2,7 +2,7 @@
 title: Jamal Benmiloud
 position: 0
 image: "/assets/img/og-image.png"
-hero-image: "/uploads/hero.jpg"
+hero-image: "/uploads/hero-2.jpg"
 hero-title: Business strategy keynote speaker
 hero-text: Find out how Jamal can help you turn consumers into a marketing team of
   millions to build your business faster in our digital economy.
