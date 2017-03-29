@@ -141,6 +141,6 @@ book-reviews:
   text: Easy read, great examples, very inspiring!
   cite: Tinkerbelle
 cta-title: No more business as usual
-layout: holding
+layout: index
 ---
 
