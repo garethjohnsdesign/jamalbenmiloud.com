@@ -7503,6 +7503,8 @@ transition-duration: 1s;
 
 .show {
   background-color: #19212F; }
+  .show .top-bar-title {
+    font-size: 2rem; }
   @media screen and (max-width: 39.9375em) {
     .show {
       background-color: transparent; } }
@@ -7537,7 +7539,7 @@ section {
 .hero {
   padding-top: 0rem;
   padding-bottom: 2rem;
-  background-position: center center;
+  background-position: center top;
   background-size: cover; }
   .hero p {
     color: #FFFFFF; }
@@ -7585,7 +7587,7 @@ section {
   padding-top: 2rem; }
 
 .testimonials {
-  background-color: #EFF3F6; }
+  background-color: #EDEDE8; }
 
 .testimonials__intro {
   padding-bottom: 2rem; }
@@ -7600,11 +7602,17 @@ section {
   padding-bottom: 2rem; }
 
 .consultant__company h4 {
+  color: #3A5EE9;
+  padding-bottom: 1rem;
   margin-bottom: 0rem; }
 
-.consultant__job-title {
-  color: #3A5EE9;
-  padding-bottom: 1rem; }
+.consultant__company img {
+  padding: 1rem;
+  filter: grayscale(1);
+  transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
+
+.consultant__company img:hover {
+  filter: grayscale(0); }
 
 .book {
   background-color: #EFF3F6; }

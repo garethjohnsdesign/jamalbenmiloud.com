@@ -143,31 +143,6 @@ layout: default
 </section>
 <!-- End Testimonials -->
 
-<!-- Consultant -->
-<section class="consultant" id="consulting">
-  
-  <div class="row align-center consultant__intro wow fadeInUp">
-  	<div class="medium-10 large-8 columns text-center">
-    	<h6 class="section__title show-for-small-only">Consulting</h6>
-      <h2>{{page.consultant-title}}</h2>
-      <p>{{page.consultant-text}}</p>
-  	</div>
-  </div>
-  
-  <div class="row align-center consultant__companies wow fadeInUp">
-    {% for company in page.consultant-company %}
-      <div class="small-12 medium-6 columns text-center consultant__company">
-        <h4>{{ company.company }}</h4>
-        <h4 class="consultant__job-title">{{ company.job-title }}</h4>
-        <a class="hollow button secondary" href="{{ company.link }}" target="_blank">Learn More</a>
-        <p>{{ company.text | markdownify}}</p>
-      </div>
-    {% endfor %}
-  </div>
-  
-</section>
-<!-- End Consultant -->
-
 <!-- Book -->
 <section class="book" id="book">
   
@@ -181,7 +156,7 @@ layout: default
   	</div>
   	
   	<div class="small-12 medium-12 large-6 columns">
-      <img src="/uploads/book.jpg">
+      <img src="{{page.book-image}}">
   	</div>
   	
   </div>
@@ -199,6 +174,30 @@ layout: default
   
 </section>
 <!-- End Book -->
+
+<!-- Consultant -->
+<section class="consultant" id="consulting">
+  
+  <div class="row align-center consultant__intro wow fadeInUp">
+  	<div class="medium-10 large-8 columns text-center">
+    	<h6 class="section__title show-for-small-only">Consulting</h6>
+      <h2>{{page.consultant-title}}</h2>
+  	</div>
+  </div>
+  
+  <div class="row align-center consultant__companies wow fadeInUp">
+    {% for company in page.consultant-company %}
+      <div class="small-12 medium-6 columns text-center consultant__company">
+        <h4>{{ company.company }}</h4>
+        <a href="{{company.link}}"><img src="{{company.image}}"></a>
+        <p>{{ company.text | markdownify}}</p>
+        <a class="hollow button secondary" href="{{ company.link }}" target="_blank">Learn More</a>
+      </div>
+    {% endfor %}
+  </div>
+  
+</section>
+<!-- End Consultant -->
 
 <!-- Call to Action -->
 <section class="cta" id="cta">
