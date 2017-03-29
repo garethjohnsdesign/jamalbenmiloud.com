@@ -33,13 +33,33 @@ speaking-text: Below is a list of presentations that Jamal can provide as keynot
   conference sessions, as well as workshops
 speaking-qualities:
 - title: Brand Love
-  text: How to build a brand without spending a dollar on advertising
+  text: |-
+    How to build a brand without spending a dollar on advertising
+
+    1. What is Brand Love? 
+    1. Why do some brands have it while others are just "liked”? 
+    1. How can you replicate their success formula to create your own marketing team of millions? 
 - title: Content Marketing
-  text: How to create content the world wants to share on your behalf
+  text: |-
+    How to create content the world wants to share on your behalf
+
+    1. What are the secrets behind Red Bull’s marketing success?
+    1. How did Monster Energy become the most engaged brand in the world without spending a dollar on advertising?
+    1. How are Lego challenging Disney by focusing on content?
 - title: Disruptive Marketing
-  text: Turning ideas into revenue and customers into fans
+  text: |-
+    Turning ideas into revenue and customers into fans
+
+    1. How has smartphone company Xiaomi become the world’s most valuable startup you’ve never heard of?
+    1. How did Lego do to become the biggest gaming brand in the world?
+    1. How did Monster Energy become the No. 1 energy drink in the US without spending a dollar on advertising?
 - title: Brand Properties
-  text: How to move from campaigns to creating culture.
+  text: |-
+    How to move from campaigns to creating culture.
+
+    1. Why does Red Bull invest in Global Brand Properties such as the Red Bull Air Race, Red Bull Racing and RB Leipzig?
+    1. How did Lego move from winning in store to the box office?
+    1. How can your marketing become a long term business asset that grows in value?
 speaking-brands: Some of the case studies include
 speaking-extra: For additional or customizable presentations, please contact us
 clients-title: Hear what people are saying
