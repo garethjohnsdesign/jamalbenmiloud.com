@@ -4,24 +4,33 @@ position: 0
 image: "/assets/img/og-image.png"
 hero-image: "/uploads/hero-2.jpg"
 hero-title: Disruptive marketing keynote speaker
-hero-text: Find out how Jamal, former marketing leader at Red Bull and Monster Energy, can help you look at marketing in a different way to grow your business faster in our connection economy.
-about-title: A straight-talking thought leader, with a reputation as one of the world’s most disruptive thinkers in marketing
-about-text: "Jamal’s experience leading the innovative teams at Red Bull and Monster Energy, coupled with his vision for the future of marketing shared in his book ‘How to Build a Brand Worth Talking About’, is both informative and inspiring"
+hero-text: Find out how Jamal, former marketing leader at Red Bull and Monster Energy,
+  can help you look at marketing in a different way to grow your business faster in
+  our connection economy.
+about-title: A straight-talking thought leader, with a reputation as one of the world’s
+  most disruptive thinkers in marketing
+about-text: Jamal’s experience leading the innovative teams at Red Bull and Monster
+  Energy, coupled with his vision for the future of marketing shared in his book ‘How
+  to Build a Brand Worth Talking About’, is both informative and inspiring
 about-qualities:
 - title: Speaker
   icon: mic
-  text: Top rated keynote speaker at future facing marketing, digital and technology events around the world
+  text: Top rated keynote speaker at future facing marketing, digital and technology
+    events around the world
 - title: Leader
   icon: users
-  text: Former marketing leader of Red Bull and Monster Energy (Forbes Most Innovative Companies 2017)
+  text: Former marketing leader of Red Bull and Monster Energy (Forbes Most Innovative
+    Companies 2017)
 - title: Author
   icon: pencil3
-  text: "Co-author of Brand Love: How to Build a Brand Worth Talking About"
+  text: 'Co-author of Brand Love: How to Build a Brand Worth Talking About'
 - title: Investor
   icon: wall
-  text: Founder of EARN Studios. Non-Exec Director of Huel and The Powerful Water Company
-speaking-title: 'Impactful and inspiring lessons from the most innovative businesses'
-speaking-text: Below is a list of presentations that Jamal can provide as keynotes, conference sessions, as well as workshops
+  text: Founder of EARN Studios. Non-Exec Director of Huel and The Powerful Water
+    Company
+speaking-title: Impactful and inspiring lessons from the most innovative businesses
+speaking-text: Below is a list of presentations that Jamal can provide as keynotes,
+  conference sessions, as well as workshops
 speaking-qualities:
 - title: Brand Love
   text: How to build a brand without spending a dollar on advertising
@@ -71,7 +80,12 @@ consultant-company:
   link: http://earnstudios.com/projects/money-talks/
   text: We increased content engagement by 500%
 book-title: If customers aren't talking about your brand, you might as well not exist
-book-text: In a world where the average customer grows up seeing 170,000 marketing messages by their 17th birthday; where 86% of people admit to sharing social media content in the bathroom; where 20% of smartphone users have installed adblocking browsers because of their loathing of advertising; customers only talk about the brands they LOVE. And, if customers aren't talking about your brand, you might as well not exist
+book-text: In a world where the average customer grows up seeing 170,000 marketing
+  messages by their 17th birthday; where 86% of people admit to sharing social media
+  content in the bathroom; where 20% of smartphone users have installed adblocking
+  browsers because of their loathing of advertising; customers only talk about the
+  brands they LOVE. And, if customers aren't talking about your brand, you might as
+  well not exist
 book-image: "/uploads/book.png"
 book-reviews:
 - title: It is brilliantly researched and draw on case studies…
@@ -86,7 +100,8 @@ book-reviews:
     with real life business examples.
   cite: Mr L
 - title: An essential and timely reminder of what matters
-  text: A well researched and accessible rallying call for any marketeer or brand who wants to tell stories and make life long friends!
+  text: A well researched and accessible rallying call for any marketeer or brand
+    who wants to tell stories and make life long friends!
   cite: Alice Whitney
 cta-title: No more business as usual
 layout: index
