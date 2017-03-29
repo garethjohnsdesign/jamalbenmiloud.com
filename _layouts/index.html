@@ -124,8 +124,9 @@ layout: default
       <div class="columns text-center">
         <div class="callout" data-equalizer-watch>
           <svg class="icon icon-quote-open icon-quotes"><use xlink:href="/assets/icons/symbol-defs.svg#icon-quote-open"></use></svg>
-          <h4>{{ client }}</h4>
+          <h4>{{ client.quote }}</h4>
           <svg class="icon icon-quote-close icon-quotes"><use xlink:href="/assets/icons/symbol-defs.svg#icon-quote-close"></use></svg>
+          <p><small>{{ client.event }}</small></p>
         </div>
       </div>
     {% endfor %}
