@@ -67,13 +67,13 @@ clients-title: Hear what people are saying
 clients-text: 
 clients-clients:
 - quote: Great balance of insights and case studies
-  event: Marketing Technologist Forum 2016 
+  event: Marketing Technologist Forum 2016
 - quote: Has made me question how we currently market — centrally and locally
   event: Marketing Technologist Forum 2017
 - quote: Set the benchmark for the rest of the conference
-  event: Marketing Technologist Forum 2016 
+  event: Marketing Technologist Forum 2016
 - quote: Leaving with a huge dose of ideas and inspiration
-  event: Emerce Netherlands 2015 
+  event: Emerce Netherlands 2015
 - quote: Excellent case studies to show innovation within the industry
   event: The Marketing Forum UK 2016
 - quote: Perfectly pitched and the right level — loved his honesty
@@ -81,7 +81,7 @@ clients-clients:
 - quote: Engaging. Good use of case studies and practical examples
   event: Emerce Netherlands 2015
 - quote: Excellent presentation
-  event: Marketing Technologist Forum 2017 
+  event: Marketing Technologist Forum 2017
 consultant-title: Consultant quis risus eget urna mollis ornare vel eu leo.
 consultant-text: Sed posuere consectetur est at lobortis. Curabitur blandit tempus
   porttitor. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
