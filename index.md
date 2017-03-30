@@ -7,6 +7,12 @@ hero-title: Disruptive marketing keynote speaker
 hero-text: Find out how Jamal, former marketing leader at Red Bull and Monster Energy,
   can help you look at marketing in a different way to grow your business faster in
   our connection economy
+hero-images-title: "Don’t tell a story. Be the story"
+hero-images:
+- "/uploads/hero-01.jpg"
+- "/uploads/hero-02.jpg"
+- "/uploads/hero-03.jpg"
+- "/uploads/hero-04.jpg"
 about-title: A straight-talking thought leader, with a reputation as one of the world’s
   most disruptive thinkers in marketing
 about-text: Jamal’s experience leading the innovative teams at Red Bull and Monster
@@ -81,24 +87,25 @@ clients-clients:
   event: Emerce Netherlands 2015
 - quote: Excellent presentation
   event: Marketing Technologist Forum 2017
-consultant-title: EARN Studios is a consultancy for future facing brands
+consultant-title: Jamal is one of the world’s leading creative consultants
+consultant-text: Having previously led the marketing teams at Monster Energy and Red Bull, Jamal was pivotal in developing revolutionary and unique approaches to marketing, enabling both brands to win true fans. Jamal then went on to consult for a host of global brands, helping them to successfully build fanatical followings of their own using his marketing philosophy.
 consultant-company:
 - company: Castrol
-  image: "/uploads/castrol.jpg"
+  image: "/uploads/castrol-square.jpg"
   link: http://earnstudios.com/projects/castrol/
-  text: Our first project became the most shared film in the world
+  text: The World Cup activation campaign that became the most shared film in the world
 - company: EE
-  image: "/uploads/ee.jpg"
+  image: "/uploads/ee-square.jpg"
   link: http://earnstudios.com/projects/ee/
-  text: We invented a mobile network run by YouTubers that made millions
+  text: Invented the mobile network run by YouTubers that earned millions
 - company: Pop Works
-  image: "/uploads/pop-works.jpg"
+  image: "/uploads/pop-works-square.jpg"
   link: http://earnstudios.com/projects/pop-works/
-  text: Our launch campaign achieved the highest ad recall for any PepsiCo brand
-- company: First Direct
-  image: "/uploads/first-direct.jpg"
-  link: http://earnstudios.com/projects/money-talks/
-  text: We increased content engagement by 500%
+  text: The innovative launch strategy that made them the No.2 popcorn in their first week
+- company: Samsung
+  image: "/uploads/samsung-square.jpg"
+  link: http://earnstudios.com/projects/samsung/
+  text: Wrote the brand book that turns customers into fans.
 book-title: If customers aren't talking about your brand, you might as well not exist
 book-text: In a world where the average customer grows up seeing 170,000 marketing
   messages by their 17th birthday; where 86% of people admit to sharing social media
@@ -123,7 +130,7 @@ book-reviews:
   text: A well researched and accessible rallying call for any marketeer or brand
     who wants to tell stories and make life long friends!
   cite: Alice Whitney
-cta-title: No more business as usual
+cta-title: "Don’t tell a story. Be the story"
 layout: index
 ---
 

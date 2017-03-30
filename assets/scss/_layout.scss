@@ -160,6 +160,21 @@ section {
   padding-bottom: 4rem;
 }
 
+
+.hero-images {
+  background-color: $color--black-pearl;
+}
+
+.hero-images h2 {
+  color: $color--white;
+  padding-bottom: 2rem;
+}
+
+.hero-images img {
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+
 // 5. About
 
 .about {
@@ -245,6 +260,10 @@ section {
   padding-bottom: 2rem;
 }
 
+.consultant__intro h2 {
+  padding-bottom: 1rem;
+}
+
 .consultant__company {
   padding-bottom: 2rem;
 }
@@ -256,13 +275,14 @@ section {
 }
 
 .consultant__company img {
-  padding: 1rem;
-  filter: grayscale(1);
+  border-radius: 50%;
+//   padding: 1rem;
+//   filter: grayscale(1);
   transition: $primary-transition;
 }
 
 .consultant__company img:hover {
-  filter: grayscale(0);
+  filter: grayscale(1);
 }
 
 // 5. Book

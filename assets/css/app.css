@@ -7555,6 +7555,17 @@ section {
   padding-top: 4rem;
   padding-bottom: 4rem; }
 
+.hero-images {
+  background-color: #19212F; }
+
+.hero-images h2 {
+  color: #FFFFFF;
+  padding-bottom: 2rem; }
+
+.hero-images img {
+  border-radius: 50%;
+  margin-bottom: 2rem; }
+
 .about {
   background-color: #EDEDE8; }
 
@@ -7614,6 +7625,9 @@ section {
 .consultant__intro {
   padding-bottom: 2rem; }
 
+.consultant__intro h2 {
+  padding-bottom: 1rem; }
+
 .consultant__company {
   padding-bottom: 2rem; }
 
@@ -7623,12 +7637,11 @@ section {
   margin-bottom: 0rem; }
 
 .consultant__company img {
-  padding: 1rem;
-  filter: grayscale(1);
+  border-radius: 50%;
   transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
 
 .consultant__company img:hover {
-  filter: grayscale(0); }
+  filter: grayscale(1); }
 
 .book {
   background-color: #EFF3F6; }
