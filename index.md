@@ -7,7 +7,7 @@ hero-title: Disruptive marketing keynote speaker
 hero-text: Find out how Jamal, former marketing leader at Red Bull and Monster Energy,
   can help you look at marketing in a different way to grow your business faster in
   our connection economy
-hero-images-title: "Don’t tell a story. Be the story"
+hero-images-title: Don’t tell a story. Be the story
 hero-images:
 - "/uploads/hero-01.jpg"
 - "/uploads/hero-02.jpg"
@@ -88,12 +88,17 @@ clients-clients:
 - quote: Excellent presentation
   event: Marketing Technologist Forum 2017
 consultant-title: Jamal is one of the world’s leading creative consultants
-consultant-text: Having previously led the marketing teams at Monster Energy and Red Bull, Jamal was pivotal in developing revolutionary and unique approaches to marketing, enabling both brands to win true fans. Jamal then went on to consult for a host of global brands, helping them to successfully build fanatical followings of their own using his marketing philosophy.
+consultant-text: Having previously led the marketing teams at Monster Energy and Red
+  Bull, Jamal was pivotal in developing revolutionary and unique approaches to marketing,
+  enabling both brands to win true fans. Jamal then went on to consult for a host
+  of global brands, helping them to successfully build fanatical followings of their
+  own using his marketing philosophy.
 consultant-company:
 - company: Castrol
   image: "/uploads/castrol-square.jpg"
   link: http://earnstudios.com/projects/castrol/
-  text: The World Cup activation campaign that became the most shared film in the world
+  text: The World Cup activation campaign that became the most shared film in the
+    world
 - company: EE
   image: "/uploads/ee-square.jpg"
   link: http://earnstudios.com/projects/ee/
@@ -101,7 +106,8 @@ consultant-company:
 - company: Pop Works
   image: "/uploads/pop-works-square.jpg"
   link: http://earnstudios.com/projects/pop-works/
-  text: The innovative launch strategy that made them the No.2 popcorn in their first week
+  text: The innovative launch strategy that made them the No.2 popcorn in their first
+    week
 - company: Samsung
   image: "/uploads/samsung-square.jpg"
   link: http://earnstudios.com/projects/samsung/
@@ -130,7 +136,7 @@ book-reviews:
   text: A well researched and accessible rallying call for any marketeer or brand
     who wants to tell stories and make life long friends!
   cite: Alice Whitney
-cta-title: "Don’t tell a story. Be the story"
+cta-title: Don’t tell a story. Be the story
 layout: index
 ---
 
