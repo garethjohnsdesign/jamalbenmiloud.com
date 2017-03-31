@@ -7409,7 +7409,8 @@ Single-colored icons can be modified like so:
 .icon-play-circle {
   font-size: 3rem;
   fill: #3A5EE9;
-  transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
+  transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
+  margin-bottom: 1rem; }
 
 .icon-play-circle:hover {
   fill: #DDE3E7; }
