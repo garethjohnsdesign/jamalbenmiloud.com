@@ -6203,7 +6203,7 @@ html.is-reveal-open body {
   left: 0;
   z-index: 1005;
   display: none;
-  background-color: rgba(0, 0, 0, 0.45);
+  background-color: rgba(0, 0, 0, 0.85);
   overflow-y: scroll; }
 
 .reveal {
@@ -7406,6 +7406,14 @@ Single-colored icons can be modified like so:
   font-size: 1.5rem;
   color: #DDE3E7; }
 
+.icon-play-circle {
+  font-size: 3rem;
+  fill: #3A5EE9;
+  transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
+
+.icon-play-circle:hover {
+  fill: #DDE3E7; }
+
 .overlay {
   z-index: 1001;
   position: fixed;
@@ -7600,6 +7608,14 @@ section {
 
 .speaking__companies {
   padding-top: 2rem; }
+
+.speaking__companies a {
+  color: #EFF3F6; }
+
+.speaking__qualities p {
+  font-size: 1.25rem;
+  font-family: "GTWalsheimProMedium", Helvetica, Roboto, Arial, sans-serif;
+  line-height: 1.2; }
 
 .speaking__qualities ul li {
   padding-bottom: 1rem;

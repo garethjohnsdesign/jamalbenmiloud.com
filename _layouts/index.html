@@ -46,6 +46,25 @@ layout: default
 </section>
 <!-- End Hero -->
 
+<!-- Hero Images -->
+<section class="hero-images" id="hero-images">
+  <div class="row align-center hero-images__title wow fadeInUp">
+  	<div class="medium-10 large-8 columns text-center">
+      <h2>{{page.hero-images-title}}</h2>
+  	</div>
+  </div>
+  
+  <div class="row align-center hero-images__images wow fadeInUp">
+    {% for image in page.hero-images %}
+      <div class="small-6 medium-3 columns text-center">
+        <img src="{{image}}">
+      </div>
+    {% endfor %}
+  </div>
+  
+</section>
+<!-- End Hero Images -->
+
 <!-- About -->
 <section class="about" id="about">
   
@@ -70,25 +89,6 @@ layout: default
 </section>
 <!-- End About -->
 
-<!-- Hero Images -->
-<section class="hero-images" id="hero-images">
-  <div class="row align-center hero-images__title wow fadeInUp">
-  	<div class="medium-10 large-8 columns text-center">
-      <h2>{{page.hero-images-title}}</h2>
-  	</div>
-  </div>
-  
-  <div class="row align-center hero-images__images wow fadeInUp">
-    {% for image in page.hero-images %}
-      <div class="small-6 medium-3 columns text-center">
-        <img src="{{image}}">
-      </div>
-    {% endfor %}
-  </div>
-  
-</section>
-<!-- End Hero Images -->
-
 <!-- Speaking -->
 <section class="speaking" id="speaking">
   
@@ -104,7 +104,7 @@ layout: default
     {% for quality in page.speaking-qualities %}
       <div class="small-12 medium-6 large-expand columns text-center">
         <h4>{{ quality.title }}</h4>
-        <p>{{ quality.text | markdownify}}</p>
+        {{ quality.text | markdownify}}
       </div>
     {% endfor %}
   </div>
@@ -113,6 +113,8 @@ layout: default
   	<div class="medium-10 large-8 columns text-center">
     	<p>{{page.speaking-brands}}</p>
       <img src="/uploads/logos.svg">
+      <p><a data-open="video">Watch Jamal's Latest Presentation</a></p>
+      <a data-open="video"><svg class="icon icon-play-circle"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play-circle"></use></svg></a>
   	</div>
   </div>
   
@@ -171,7 +173,7 @@ layout: default
       <h2>{{page.book-title}}</h2>
       <p>{{page.book-text}}</p>
       <a class="button" href="https://www.amazon.co.uk/Brand-Love-Build-Worth-Talking-ebook/dp/B00VBPBU1G" target="_blank">Order Now</a>
-      <a class="button" data-open="exampleModal1">Request Sample</a>
+      <a class="button" data-open="book-request">Request Sample</a>
   	</div>
   	
   	<div class="small-12 medium-12 large-6 columns">
@@ -235,18 +237,18 @@ layout: default
   <div class="shrink columns">
     <ul class="menu align-center">
     <li><a href="{{site.social.linkedin}}">LinkedIn</a></li>
-    <li><a href="http://garethjohnsdesign.com">Colophon</a></li>
     </ul>
-  </div>
-</div>
-<div class="row align-center footer__copyright wow fadeInUp">
-  <div class="shrink columns">
-    <a href="http://earnstudios.com">© EARN Studios Limited</a>
   </div>
 </div>
 </section>
 
 
-<div class="reveal" id="exampleModal1" data-reveal>
+<div class="reveal" id="book-request" data-reveal data-close-on-click="true" data-animation-in="fade-in" data-animation-out="fade-out">
 {% include bookrequest.html %}
+</div>
+
+<div class="reveal large" id="video" data-reveal data-close-on-click="true" data-animation-in="fade-in" data-animation-out="fade-out">
+<div class="responsive-embed widescreen">
+  <iframe src="https://player.vimeo.com/video/{{page.speaking-video}}?color=ffffff&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
 </div>

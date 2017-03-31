@@ -226,6 +226,16 @@ section {
   padding-top: 2rem;
 }
 
+.speaking__companies a {
+  color: $color--aqua-haze;
+}
+
+.speaking__qualities p {
+    font-size: 1.25rem;
+    font-family: $header-font-family;
+    line-height: 1.2;
+}
+
 .speaking__qualities ul li {
     padding-bottom: 1rem;
     color: $color--white;

@@ -15,13 +15,13 @@ hero-images:
 - "/uploads/hero-04.jpg"
 about-title: A straight-talking thought leader, with a reputation as one of the world’s
   most disruptive thinkers in marketing
-about-text: Jamal’s experience leading the innovative teams at Red Bull and Monster
-  Energy, coupled with his vision for the future of marketing shared in his book ‘How
-  to Build a Brand Worth Talking About’, is both informative and inspiring
+about-text: "Jamal’s experience leading the innovative teams at Red Bull and Monster
+  Energy, coupled with his vision for the future of marketing shared in his book Brand Love: How
+  to Build a Brand Worth Talking About, is both informative and inspiring"
 about-qualities:
 - title: Speaker
   icon: mic
-  text: Top rated keynote speaker at future facing marketing, digital and technology
+  text: Top rated keynote speaker at marketing, digital and technology
     events around the world
 - title: Leader
   icon: users
@@ -34,13 +34,13 @@ about-qualities:
   icon: wall
   text: Founder of EARN Studios. Non-Exec Director of Huel and The Powerful Water
     Company
-speaking-title: Impactful and inspiring lessons from the most innovative businesses
+speaking-title: Impactful and inspiring learnings from the most innovative businesses
 speaking-text: Below is a list of presentations that Jamal can provide as keynotes,
   conference sessions, as well as workshops
 speaking-qualities:
 - title: Brand Love
   text: |-
-    How to build a brand without spending a dollar on advertising
+    How to build a brand the world loves and talks about
 
     * What is Brand Love? 
     * Why do some brands have it while others are just "liked”? 
@@ -57,8 +57,8 @@ speaking-qualities:
     Turning ideas into revenue and customers into fans
 
     * How has smartphone company Xiaomi become the world’s most valuable startup you’ve never heard of?
-    * How did Lego do to become the biggest gaming brand in the world?
-    * How did Monster Energy become the No. 1 energy drink in the US without spending a dollar on advertising?
+    * How did Lego become the biggest gaming brand in the world?
+    * How did Monster Energy become the No.1 energy drink in the US without spending a dollar on advertising?
 - title: Brand Properties
   text: |-
     How to move from campaigns to creating culture.
@@ -68,17 +68,18 @@ speaking-qualities:
     * How can your marketing become a long term business asset that grows in value?
 speaking-brands: Some of the case studies include
 speaking-extra: For additional or customizable presentations, please contact us
+speaking-video: 210948597
 clients-title: Hear what people are saying
 clients-text: 
 clients-clients:
-- quote: Great balance of insights and case studies
+- quote: Leaving with a huge dose of ideas and inspiration
+  event: Emerce Netherlands 2015
+- quote: Set the benchmark for the rest of the conference
   event: Marketing Technologist Forum 2016
 - quote: Has made me question how we currently market — centrally and locally
   event: The Digital Marketing Forum 2017
-- quote: Set the benchmark for the rest of the conference
+- quote: Great balance of insights and case studies
   event: Marketing Technologist Forum 2016
-- quote: Leaving with a huge dose of ideas and inspiration
-  event: Emerce Netherlands 2015
 - quote: Excellent case studies to show innovation within the industry
   event: The Marketing Forum UK 2016
 - quote: Perfectly pitched and the right level — loved his honesty
@@ -103,7 +104,7 @@ consultant-company:
   image: "/uploads/ee-square.jpg"
   link: http://earnstudios.com/projects/ee/
   text: Invented the mobile network run by YouTubers that earned millions
-- company: Pop Works
+- company: PepsiCo
   image: "/uploads/pop-works-square.jpg"
   link: http://earnstudios.com/projects/pop-works/
   text: The innovative launch strategy that made them the No.2 popcorn in their first
