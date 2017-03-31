@@ -46,25 +46,6 @@ layout: default
 </section>
 <!-- End Hero -->
 
-<!-- Hero Images -->
-<section class="hero-images" id="hero-images">
-  <div class="row align-center hero-images__title wow fadeInUp">
-  	<div class="medium-10 large-8 columns text-center">
-      <h2>{{page.hero-images-title}}</h2>
-  	</div>
-  </div>
-  
-  <div class="row align-center hero-images__images wow fadeInUp">
-    {% for image in page.hero-images %}
-      <div class="small-6 medium-3 columns text-center">
-        <img src="{{image}}">
-      </div>
-    {% endfor %}
-  </div>
-  
-</section>
-<!-- End Hero Images -->
-
 <!-- About -->
 <section class="about" id="about">
   
@@ -88,6 +69,25 @@ layout: default
   
 </section>
 <!-- End About -->
+
+<!-- Hero Images -->
+<section class="hero-images" id="hero-images">
+  <div class="row align-center hero-images__title wow fadeInUp">
+  	<div class="medium-10 large-8 columns text-center">
+      <h2>{{page.hero-images-title}}</h2>
+  	</div>
+  </div>
+  
+  <div class="row align-center hero-images__images wow fadeInUp">
+    {% for image in page.hero-images %}
+      <div class="small-6 medium-3 columns text-center">
+        <img src="{{image}}">
+      </div>
+    {% endfor %}
+  </div>
+  
+</section>
+<!-- End Hero Images -->
 
 <!-- Speaking -->
 <section class="speaking" id="speaking">
