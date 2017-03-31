@@ -15,14 +15,14 @@ hero-images:
 - "/uploads/hero-04.jpg"
 about-title: A straight-talking thought leader, with a reputation as one of the world’s
   most disruptive thinkers in marketing
-about-text: "Jamal’s experience leading the innovative teams at Red Bull and Monster
-  Energy, coupled with his vision for the future of marketing shared in his book Brand Love: How
-  to Build a Brand Worth Talking About, is both informative and inspiring"
+about-text: 'Jamal’s experience leading the innovative teams at Red Bull and Monster
+  Energy, coupled with his vision for the future of marketing shared in his book Brand
+  Love: How to Build a Brand Worth Talking About, is both informative and inspiring'
 about-qualities:
 - title: Speaker
   icon: mic
-  text: Top rated keynote speaker at marketing, digital and technology
-    events around the world
+  text: Top rated keynote speaker at marketing, digital and technology events around
+    the world
 - title: Leader
   icon: users
   text: Former marketing leader of Red Bull and Monster Energy (Forbes Most Innovative
