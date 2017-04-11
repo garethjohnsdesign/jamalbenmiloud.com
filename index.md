@@ -96,20 +96,24 @@ consultant-text: Having previously led the marketing teams at Monster Energy and
   own using his marketing philosophy.
 consultant-company:
 - company: Castrol
+  icon: castrol
   image: "/uploads/castrol-square.jpg"
   link: http://earnstudios.com/projects/castrol/
   text: The World Cup activation campaign that became the most shared film in the
     world
 - company: EE
+  icon: ee
   image: "/uploads/ee-square.jpg"
   link: http://earnstudios.com/projects/ee/
   text: Invented the mobile network run by YouTubers that earned millions
 - company: PepsiCo
+  icon: pepsico
   image: "/uploads/pop-works-square.jpg"
   link: http://earnstudios.com/projects/pop-works/
   text: The innovative launch strategy that made them the No.2 popcorn in their first
     week
 - company: Samsung
+  icon: samsung
   image: "/uploads/samsung-square.jpg"
   link: http://earnstudios.com/projects/samsung/
   text: Wrote the brand book that turns customers into fans.

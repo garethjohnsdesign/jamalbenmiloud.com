@@ -203,7 +203,8 @@ layout: default
   <div class="row align-center consultant__companies wow fadeInUp">
     {% for company in page.consultant-company %}
       <div class="small-6 medium-3 columns text-center consultant__company">
-        <h4>{{ company.company }}</h4>
+        <svg class="icon icon-{{ company.icon }} icon-company"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{ company.icon }}"></use></svg>
+<!--         <h4>{{ company.company }}</h4> -->
         <a href="{{company.link}}" target="_blank"><img src="{{company.image}}"></a>
         <p>{{ company.text | markdownify}}</p>
         <a class="hollow button secondary" href="{{ company.link }}" target="_blank">Learn More</a>
@@ -225,6 +226,7 @@ layout: default
 </section>
 <!-- End Call to Action -->
 
+<!--
 <section class="footer">
 <div class="row small-collapse expanded align-middle align-center footer__links wow fadeInUp">
   <div class="shrink columns">
@@ -234,6 +236,7 @@ layout: default
   </div>
 </div>
 </section>
+-->
 
 
 <div class="reveal" id="book-request" data-reveal data-close-on-click="true" data-animation-in="fade-in" data-animation-out="fade-out">

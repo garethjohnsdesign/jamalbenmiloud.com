@@ -26,6 +26,11 @@ Single-colored icons can be modified like so:
   color: $color--zircon;
 }
 
+.icon-company {
+  font-size: 6rem;
+  fill: $color--royal-blue;
+}
+
 .icon-play-circle {
   font-size: 3rem;
   fill: $color--royal-blue;

@@ -7406,6 +7406,10 @@ Single-colored icons can be modified like so:
   font-size: 1.5rem;
   color: #DDE3E7; }
 
+.icon-company {
+  font-size: 6rem;
+  fill: #3A5EE9; }
+
 .icon-play-circle {
   font-size: 3rem;
   fill: #3A5EE9;
