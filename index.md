@@ -86,8 +86,9 @@ clients-clients:
   event: The Digital Marketing Forum 2017
 - quote: Engaging. Good use of case studies and practical examples
   event: Emerce Netherlands 2015
-- quote: Excellent presentation
-  event: Marketing Technologist Forum 2017
+- quote: Really interesting perspective on how to grow a brand without huge media
+    spend. Will definitely be looking to read the book.
+  event: Marketing Insight Forum 2017
 consultant-title: Jamal is one of the world’s leading creative consultants
 consultant-text: Having previously led the marketing teams at Monster Energy and Red
   Bull, Jamal was pivotal in developing revolutionary and unique approaches to marketing,
