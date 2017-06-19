@@ -89,7 +89,7 @@ clients-clients:
 - quote: Really interesting perspective on how to grow a brand without huge media
     spend. Will definitely be looking to read the book.
   event: Marketing Insight Forum 2017
-consultant-title: Jamal is one of the world’s leading creative consultants
+consultant-title: Jamal is one of the world’s leading marketing consultants
 consultant-text: Having previously led the marketing teams at Monster Energy and Red
   Bull, Jamal was pivotal in developing revolutionary and unique approaches to marketing,
   enabling both brands to win true fans. Jamal then went on to consult for a host
