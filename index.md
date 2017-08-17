@@ -68,7 +68,6 @@ speaking-qualities:
     * How can your marketing become a long term business asset that grows in value?
 speaking-brands: Some of the case studies include
 speaking-extra: For additional or customizable presentations, please contact us
-speaking-video: 210948597
 clients-title: Hear what people are saying
 clients-text: 
 clients-clients:
@@ -86,9 +85,10 @@ clients-clients:
   event: The Digital Marketing Forum 2017
 - quote: Engaging. Good use of case studies and practical examples
   event: Emerce Netherlands 2015
-- quote: Excellent presentation
-  event: Marketing Technologist Forum 2017
-consultant-title: Jamal is one of the world’s leading creative consultants
+- quote: Really interesting perspective on how to grow a brand without huge media
+    spend. Will definitely be looking to read the book.
+  event: Marketing Insight Forum 2017
+consultant-title: Jamal is one of the world’s leading marketing consultants
 consultant-text: Having previously led the marketing teams at Monster Energy and Red
   Bull, Jamal was pivotal in developing revolutionary and unique approaches to marketing,
   enabling both brands to win true fans. Jamal then went on to consult for a host
