@@ -68,7 +68,6 @@ speaking-qualities:
     * How can your marketing become a long term business asset that grows in value?
 speaking-brands: Some of the case studies include
 speaking-extra: For additional or customizable presentations, please contact us
-speaking-video: 210948597
 clients-title: Hear what people are saying
 clients-text: 
 clients-clients:
