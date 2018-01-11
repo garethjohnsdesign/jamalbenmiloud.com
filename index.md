@@ -15,9 +15,15 @@ hero-images:
 - "/uploads/hero-04.jpg"
 about-title: A straight-talking thought leader, with a reputation as one of the world’s
   most disruptive thinkers in marketing
-about-text: 'Jamal’s experience leading the innovative teams at Red Bull and Monster
-  Energy, coupled with his vision for the future of marketing shared in his book Brand
-  Love: How to Build a Brand Worth Talking About, is both informative and inspiring'
+about-text: 'Jamal led the innovative teams at Red Bull and Monster Energy and was
+  pivotal in developing their unique and entrepreneurial approach to marketing. He
+  then explored the world in search of the brands that become famous by placing this
+  approach at the heart of everything they do, documented in his book ‘Brand Love:
+  How to Build a Brand Worth Talking About’. Now Jamal leads EARN Studios, an innovation
+  consultancy founded to apply his disruptive approach to the world’s biggest brands,
+  partnering to invent new businesses together that get the world talking.
+
+'
 about-qualities:
 - title: Speaker
   icon: mic
