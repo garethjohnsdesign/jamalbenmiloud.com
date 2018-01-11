@@ -32,7 +32,7 @@ about-qualities:
 - title: Leader
   icon: users
   text: Former marketing leader of Red Bull and Monster Energy (Forbes Most Innovative
-    Companies 2017)
+    Companies 2017). Founder and Chief Inventor of EARN Studios.
 - title: Author
   icon: pencil3
   text: 'Co-author of Brand Love: How to Build a Brand Worth Talking About'
@@ -95,11 +95,14 @@ clients-clients:
     spend. Will definitely be looking to read the book.
   event: Marketing Insight Forum 2017
 consultant-title: Jamal is one of the world’s leading marketing consultants
-consultant-text: Having previously led the marketing teams at Monster Energy and Red
-  Bull, Jamal was pivotal in developing revolutionary and unique approaches to marketing,
-  enabling both brands to win true fans. Jamal then went on to consult for a host
-  of global brands, helping them to successfully build fanatical followings of their
-  own using his marketing philosophy.
+consultant-text: "At EARN Studios, Jamal and his team of inventors work with the world’s
+  biggest brands to invent and grow new businesses together. Our work includes…\n-\tEE:
+  Invented the mobile network run by YouTubers that earned millions\n-\tDiageo: Innovation
+  partner for European Innovation team helping develop the disruptive spirits brands
+  of the future\n-\tHuel: Strategic consultant for the future of food\n-\tSuntory:
+  A premium mixer range invented and launched in the UK in six months\n\nIf you’re
+  interested in learning more about EARN and like the idea of working with Jamal and
+  the team on something exciting soon, just drop us an email.\n\n"
 consultant-company:
 - company: Castrol
   icon: castrol
@@ -124,12 +127,11 @@ consultant-company:
   link: http://earnstudios.com/projects/samsung/
   text: Wrote the brand book that turns customers into fans.
 book-title: If customers aren't talking about your brand, you might as well not exist
-book-text: In a world where the average customer grows up seeing 170,000 marketing
-  messages by their 17th birthday; where 86% of people admit to sharing social media
-  content in the bathroom; where 20% of smartphone users have installed adblocking
-  browsers because of their loathing of advertising; customers only talk about the
-  brands they LOVE. And, if customers aren't talking about your brand, you might as
-  well not exist
+book-text: "Brand Love takes you on a journey around the world in search of the most
+  innovative businesses people are talking about.\nHow did Monster Energy become the
+  most successful energy drinks business in the US without a single dollar spent on
+  advertising?\nHow do LEGO sell billions of dollars of analogue toys in the digital
+  age? \n"
 book-image: "/uploads/book.png"
 book-reviews:
 - title: It is brilliantly researched and draw on case studies…
