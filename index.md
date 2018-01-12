@@ -95,14 +95,19 @@ clients-clients:
     spend. Will definitely be looking to read the book.
   event: Marketing Insight Forum 2017
 consultant-title: Jamal is one of the world’s leading marketing consultants
-consultant-text: "At EARN Studios, Jamal and his team of inventors work with the world’s
-  biggest brands to invent and grow new businesses together. \nOur work includes:\n*
-  **- EE:** Invented the mobile network run by YouTubers that earned millions\n* **-
-  Diageo:** Innovation partner for European Innovation team helping develop the disruptive
-  spirits brands of the future\n* **- Huel:** Strategic consultant for the future
-  of food\n* **- Suntory:** A premium mixer range invented and launched in the UK
-  in six months\n\nIf you’re interested in learning more about EARN and like the idea
-  of working with Jamal and the team on something exciting soon, just drop us an email.\n\n"
+consultant-text: "At EARN Studios, Jamal and his team of inventors work with the world’s biggest brands to invent and grow new businesses together.
+
+Our work includes:
+
+- EE:Invented the mobile network run by YouTubers that earned millions
+
+- Diageo: Innovation partner for European Innovation team helping develop the disruptive spirits brands of the future
+
+- Huel: Strategic consultant for the future of food
+
+- Suntory: A premium mixer range invented and launched in the UK in six months
+
+If you’re interested in learning more about EARN and like the idea of working with Jamal and the team on something exciting soon, just drop us an email."
 consultant-company:
 - company: Castrol
   icon: castrol
