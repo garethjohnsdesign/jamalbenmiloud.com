@@ -102,6 +102,7 @@ consultant-text: |-
   - Diageo: Innovation partner for European Innovation team helping develop the disruptive spirits brands of the future
   - Huel: Strategic consultant for the future of food
   - Suntory: A premium mixer range invented and launched in the UK in six months
+
   If you’re interested in learning more about EARN and like the idea of working with Jamal and the team on something exciting soon, just drop us an email.
 consultant-company:
 - company: Castrol
