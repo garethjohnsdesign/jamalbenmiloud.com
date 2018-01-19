@@ -295,6 +295,20 @@ section {
   filter: grayscale(1);
 }
 
+
+.consultant ul li {
+    padding-bottom: 1rem;
+    list-style-type: none;
+}
+
+.consultant ul li:before {
+    /* Unicode bullet symbol */
+    content: '\2022 ';
+    /* Bullet color */
+    color: $color--alluminium;
+    padding-right: 0.5em;
+}
+
 // 5. Book
 
 .book {

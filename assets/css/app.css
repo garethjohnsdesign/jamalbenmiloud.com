@@ -7664,6 +7664,17 @@ section {
 .consultant__company img:hover {
   filter: grayscale(1); }
 
+.consultant ul li {
+  padding-bottom: 1rem;
+  list-style-type: none; }
+
+.consultant ul li:before {
+  /* Unicode bullet symbol */
+  content: '\2022 ';
+  /* Bullet color */
+  color: #999999;
+  padding-right: 0.5em; }
+
 .book {
   background-color: #EFF3F6; }
 
