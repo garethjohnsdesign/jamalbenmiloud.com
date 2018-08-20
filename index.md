@@ -38,8 +38,7 @@ about-qualities:
   text: 'Co-author of Brand Love: How to Build a Brand Worth Talking About'
 - title: Investor
   icon: wall
-  text: Founder of EARN Studios. Non-Exec Director of Huel and The Powerful Water
-    Company
+  text: Founder of EARN Studios. Non-Exec Director of Huel
 speaking-title: Impactful and inspiring learnings from the most innovative businesses
 speaking-text: Below is a list of presentations that Jamal can provide as keynotes,
   conference sessions, as well as workshops
