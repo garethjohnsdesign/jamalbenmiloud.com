@@ -36,9 +36,9 @@ about-qualities:
 - title: Author
   icon: pencil3
   text: 'Co-author of Brand Love: How to Build a Brand Worth Talking About'
-- title: Non-Exec
+- title: Advisor
   icon: wall
-  text: Non-Exec Director of Huel
+  text: NED of Huel and Advisory Board Member of Anheuser-Busch InBev and Gousto
 speaking-title: Impactful and inspiring learnings from the most innovative businesses
 speaking-text: Below is a list of presentations that Jamal can provide as keynotes,
   conference sessions, as well as workshops
