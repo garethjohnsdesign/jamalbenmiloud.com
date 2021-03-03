@@ -115,12 +115,12 @@ consultant-company:
   image: "/uploads/ee-square.jpg"
   link: https://www.earnstudios.com/work/ee/
   text: Invented the mobile network run by YouTubers that earned millions
-- company: PepsiCo
-  icon: pepsico
-  image: "/uploads/pop-works-square.jpg"
-  link: http://earnstudios.com/projects/pop-works/
-  text: The innovative launch strategy that made them the No.2 popcorn in their first
-    week
+- company: McCormick
+  icon: 
+  image: "/uploads/McCormick.jpg"
+  link: https://www.earnstudios.com/work/mccormick-and-buzzfeed/
+  text: A McCormick/BuzzFeed collaboration to launch Tasty-branded seasonings for
+    the US/Canadian markets
 - company: Samsung
   icon: samsung
   image: "/uploads/samsung-square.jpg"
