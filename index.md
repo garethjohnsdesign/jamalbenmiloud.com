@@ -116,12 +116,11 @@ consultant-company:
   link: https://www.earnstudios.com/work/ee/
   text: Invented the mobile network run by YouTubers that earned millions
 - company: McCormick
-  icon: pepsico
+  icon: 
   image: "/uploads/McCormick.jpg"
   link: https://www.earnstudios.com/work/mccormick-and-buzzfeed/
-  text: A collaboration with McCormick, the 130 year-old seasoning manufacturer, and
-    BuzzFeed’s food publication Tasty to co-develop and launch Tasty-branded seasonings
-    for the US/Canadian markets
+  text: A McCormick/BuzzFeed collaboration to launch Tasty-branded seasonings for
+    the US/Canadian markets
 - company: Samsung
   icon: samsung
   image: "/uploads/samsung-square.jpg"
