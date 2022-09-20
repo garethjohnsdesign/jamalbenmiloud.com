@@ -4,4 +4,4 @@ Website for Jamal Benmiloud. Please go to [www.jamalbenmiloud.com](http://jamalb
 
 * * *
 
-Copyright (c) 2017 Gareth Johns Art Direction + Design – info@garethjohnsdesign.com
+Copyright (c) 2017 Gareth Johns Design + Development – info@garethjohnsdesign.com
