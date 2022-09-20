@@ -2328,9 +2328,8 @@ Copyright (c) 2015 Daniel Eden
   font-style: normal; }
 
 @font-face {
-  font-family: 'AdelleSans';
-  src: url("../fonts/AdelleSans.woff") format("woff"), url("../fonts/AdelleSans.ttf") format("truetype");
-  font-weight: normal;
+  font-family: adelle-sans,sans-serif;
+  font-weight: 400;
   font-style: normal; }
 
 /*!
@@ -3308,7 +3307,7 @@ body {
   margin: 0;
   padding: 0;
   background: #FFFFFF;
-  font-family: "AdelleSans", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "adelle-sans", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #696B79;
@@ -3397,9 +3396,7 @@ pre {
   .row.collapse > .column, .row.collapse > .columns {
     padding-right: 0;
     padding-left: 0; }
-  .row.is-collapse-child,
-  .row.collapse > .column > .row,
-  .row.collapse > .columns > .row {
+  .row.is-collapse-child, .row.collapse > .column > .row, .row.collapse > .columns > .row {
     margin-right: 0;
     margin-left: 0; }
 
@@ -3412,7 +3409,6 @@ pre {
     .column, .columns {
       padding-right: 1.5625rem;
       padding-left: 1.5625rem; } }
-
 .column.row.row, .row.row.columns {
   float: none;
   display: block; }
@@ -3741,10 +3737,9 @@ pre {
 
 .row.medium-unstack > .column, .row.medium-unstack > .columns {
   flex: 0 0 100%; }
-  @media print, screen and (min-width: 40em) {
+  @media print, screen and (min-width: 40em) and (min-width: 40em) {
     .row.medium-unstack > .column, .row.medium-unstack > .columns {
       flex: 1 1 0px; } }
-
 @media print, screen and (min-width: 40em) {
   .medium-collapse > .column, .medium-collapse > .columns {
     padding-right: 0;
@@ -3889,10 +3884,9 @@ pre {
 
 .row.large-unstack > .column, .row.large-unstack > .columns {
   flex: 0 0 100%; }
-  @media print, screen and (min-width: 64em) {
+  @media print, screen and (min-width: 64em) and (min-width: 64em) {
     .row.large-unstack > .column, .row.large-unstack > .columns {
       flex: 1 1 0px; } }
-
 @media print, screen and (min-width: 64em) {
   .large-collapse > .column, .large-collapse > .columns {
     padding-right: 0;
@@ -4037,10 +4031,9 @@ pre {
 
 .row.xlarge-unstack > .column, .row.xlarge-unstack > .columns {
   flex: 0 0 100%; }
-  @media screen and (min-width: 75em) {
+  @media screen and (min-width: 75em) and (min-width: 75em) {
     .row.xlarge-unstack > .column, .row.xlarge-unstack > .columns {
       flex: 1 1 0px; } }
-
 @media screen and (min-width: 75em) {
   .xlarge-collapse > .column, .xlarge-collapse > .columns {
     padding-right: 0;
@@ -4185,10 +4178,9 @@ pre {
 
 .row.xxlarge-unstack > .column, .row.xxlarge-unstack > .columns {
   flex: 0 0 100%; }
-  @media screen and (min-width: 90em) {
+  @media screen and (min-width: 90em) and (min-width: 90em) {
     .row.xxlarge-unstack > .column, .row.xxlarge-unstack > .columns {
       flex: 1 1 0px; } }
-
 @media screen and (min-width: 90em) {
   .xxlarge-collapse > .column, .xxlarge-collapse > .columns {
     padding-right: 0;
@@ -4210,7 +4202,6 @@ pre {
       margin-bottom: 3.125rem; }
       .column-block > :last-child {
         margin-bottom: 0; } }
-
 div,
 dl,
 dt,
@@ -4374,7 +4365,7 @@ ul {
 ol {
   margin-left: 0rem; }
 
-ul ul, ol ul, ul ol, ol ol {
+ul ul, ul ol, ol ul, ol ol {
   margin-left: 1.25rem;
   margin-bottom: 0; }
 
@@ -4734,7 +4725,7 @@ textarea {
   border-radius: 5px;
   background-color: #FFFFFF;
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  font-family: "AdelleSans", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "adelle-sans", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1rem;
   font-weight: normal;
   color: #000000;
@@ -4821,10 +4812,10 @@ label {
   .input-group > :last-child > * {
     border-radius: 0 5px 5px 0; }
 
-.input-group-label, .input-group-field, .input-group-button, .input-group-button a,
+.input-group-button a,
 .input-group-button input,
 .input-group-button button,
-.input-group-button label {
+.input-group-button label, .input-group-button, .input-group-field, .input-group-label {
   margin: 0;
   white-space: nowrap; }
 
@@ -4890,7 +4881,7 @@ select {
   border: 1px solid #cacaca;
   border-radius: 5px;
   background-color: #FFFFFF;
-  font-family: "AdelleSans", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "adelle-sans", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1rem;
   line-height: normal;
   color: #000000;
@@ -5136,7 +5127,6 @@ select {
       .button-group.stacked-for-small.expanded .button {
         display: block;
         margin-right: 0; } }
-
 .callout {
   position: relative;
   margin: 0 0 2rem 0;
@@ -5690,7 +5680,6 @@ select {
       max-width: 100%; }
       .media-object.stack-for-small .media-object-section img {
         width: 100%; } }
-
 .media-object-section {
   flex: 0 1 auto; }
   .media-object-section:first-child {
@@ -5965,16 +5954,16 @@ select {
   background-color: rgba(0, 0, 0, 0.5);
   color: #FFFFFF; }
 
-.orbit-previous, .orbit-next {
+.orbit-next, .orbit-previous {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   z-index: 10;
   padding: 1rem;
   color: #FFFFFF; }
-  [data-whatinput='mouse'] .orbit-previous, [data-whatinput='mouse'] .orbit-next {
+  [data-whatinput='mouse'] .orbit-next, [data-whatinput='mouse'] .orbit-previous {
     outline: 0; }
-  .orbit-previous:hover, .orbit-next:hover, .orbit-previous:active, .orbit-next:active, .orbit-previous:focus, .orbit-next:focus {
+  .orbit-next:hover, .orbit-previous:hover, .orbit-next:active, .orbit-previous:active, .orbit-next:focus, .orbit-previous:focus {
     background-color: rgba(0, 0, 0, 0.5); }
 
 .orbit-previous {
@@ -6324,7 +6313,7 @@ html.is-reveal-open body {
   [data-whatinput='mouse'] input:focus ~ .switch-paddle {
     outline: 0; }
 
-.switch-active, .switch-inactive {
+.switch-inactive, .switch-active {
   position: absolute;
   top: 50%;
   transform: translateY(-50%); }
@@ -6386,7 +6375,9 @@ table {
   width: 100%;
   margin-bottom: 1rem;
   border-radius: 5px; }
-  thead, tbody, tfoot {
+  thead,
+  tbody,
+  tfoot {
     border: 1px solid #f2f2f2;
     background-color: #FFFFFF; }
   caption {
@@ -6398,13 +6389,18 @@ table {
   tfoot {
     background: #f2f2f2;
     color: #696B79; }
-  thead tr, tfoot tr {
+  thead tr,
+  tfoot tr {
     background: transparent; }
-  thead th, thead td, tfoot th, tfoot td {
+  thead th,
+  thead td,
+  tfoot th,
+  tfoot td {
     padding: 0.5rem 0.625rem 0.625rem;
     font-weight: bold;
     text-align: left; }
-  tbody th, tbody td {
+  tbody th,
+  tbody td {
     padding: 0.5rem 0.625rem 0.625rem; }
   tbody tr:nth-child(even) {
     border-bottom: 0;
@@ -6787,7 +6783,6 @@ a.thumbnail {
     .show-for-landscape,
     .hide-for-portrait {
       display: none !important; } }
-
 .hide-for-landscape,
 .show-for-portrait {
   display: none !important; }
@@ -6799,7 +6794,6 @@ a.thumbnail {
     .hide-for-landscape,
     .show-for-portrait {
       display: block !important; } }
-
 .float-left {
   float: left !important; }
 
@@ -7517,7 +7511,6 @@ transition-duration: 1s;
   @media screen and (max-width: 39.9375em) {
     .top-bar {
       padding: 0.75rem 1.5rem 0.75rem 1.5rem; } }
-
 .show {
   background-color: #19212F; }
   .show .top-bar-title {
@@ -7525,7 +7518,6 @@ transition-duration: 1s;
   @media screen and (max-width: 39.9375em) {
     .show {
       background-color: transparent; } }
-
 .top-bar-title {
   font-family: "GTWalsheimProMedium", Helvetica, Roboto, Arial, sans-serif;
   text-transform: lowercase;
