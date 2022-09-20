@@ -107,24 +107,24 @@ consultant-company:
 - company: Castrol
   icon: castrol
   image: "/uploads/castrol-square.jpg"
-  link: http://earnstudios.com/projects/castrol/
+  link: https://www.earnstudios.com/work/footkhana/
   text: The World Cup activation campaign that became the most shared film in the
     world
 - company: EE
   icon: ee
   image: "/uploads/ee-square.jpg"
-  link: http://earnstudios.com/projects/ee/
+  link: https://www.earnstudios.com/work/ee/
   text: Invented the mobile network run by YouTubers that earned millions
-- company: PepsiCo
-  icon: pepsico
-  image: "/uploads/pop-works-square.jpg"
-  link: http://earnstudios.com/projects/pop-works/
-  text: The innovative launch strategy that made them the No.2 popcorn in their first
-    week
+- company: McCormick
+  icon: 
+  image: "/uploads/McCormick.jpg"
+  link: https://www.earnstudios.com/work/mccormick-and-buzzfeed/
+  text: A McCormick/BuzzFeed collaboration to launch Tasty-branded seasonings for
+    the US/Canadian markets
 - company: Samsung
   icon: samsung
   image: "/uploads/samsung-square.jpg"
-  link: http://earnstudios.com/projects/samsung/
+  link: https://www.earnstudios.com/work/samsung/
   text: Wrote the brand book that turns customers into fans.
 book-title: If customers aren't talking about your brand, you might as well not exist
 book-text: "Brand Love takes you on a journey around the world in search of the most
