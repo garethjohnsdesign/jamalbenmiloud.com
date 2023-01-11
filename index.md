@@ -77,22 +77,22 @@ clients-title: Hear what people are saying
 clients-text: 
 clients-clients:
 - quote: Leaving with a huge dose of ideas and inspiration
-  event: Emerce Netherlands 2015
+  event: Emerce Netherlands
 - quote: Set the benchmark for the rest of the conference
-  event: Marketing Technologist Forum 2016
+  event: Marketing Technologist Forum
 - quote: Has made me question how we currently market — centrally and locally
-  event: The Digital Marketing Forum 2017
+  event: The Digital Marketing Forum
 - quote: Great balance of insights and case studies
-  event: Marketing Technologist Forum 2016
+  event: Marketing Technologist Forum
 - quote: Excellent case studies to show innovation within the industry
-  event: The Marketing Forum UK 2016
+  event: The Marketing Forum UK
 - quote: Perfectly pitched and the right level — loved his honesty
-  event: The Digital Marketing Forum 2017
+  event: The Digital Marketing Forum
 - quote: Engaging. Good use of case studies and practical examples
-  event: Emerce Netherlands 2015
+  event: Emerce Netherlands
 - quote: Really interesting perspective on how to grow a brand without huge media
     spend. Will definitely be looking to read the book.
-  event: Marketing Insight Forum 2017
+  event: Marketing Insight Forum
 consultant-title: Jamal is one of the world’s leading marketing consultants
 consultant-text: |-
   At EARN Studios, Jamal and his team of inventors work with the world’s biggest brands to invent and grow new businesses together.
